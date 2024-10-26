@@ -3,16 +3,16 @@ st.set_page_config(page_title="TERROP", page_icon='imag3.webp', layout="wide")
 import streamlit_authenticator as stauth
 from streamlit_extras.stylable_container import stylable_container
 
-# Define user credentials
 names = ["Obinna Nwachukwu", "Jane Francis"]
 usernames = ["obison", "jane"]
 # Hashed passwords (replace with securely generated hashed passwords)
 hashed_passwords = stauth.Hasher(['obison123', 'password456']).generate()
 
-# Setup authenticator object without saving session (cookie_expiry_days=0)
+# Setup authenticator object without saving session (cookie_expiry_days=None)
 authenticator = stauth.Authenticate(
-    names, usernames, hashed_passwords, "cookie_name", "signature_key", cookie_expiry_days=0  # Prevent saving the session
+    names, usernames, hashed_passwords, "cookie_name", "signature_key", cookie_expiry_days=None
 )
+
 
 # Function to handle login and signup form display
 def display_auth_form():
