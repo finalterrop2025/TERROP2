@@ -10,7 +10,7 @@ hashed_passwords = stauth.Hasher(['obison123', 'password456']).generate()
 
 # Setup authenticator object without saving session
 authenticator = stauth.Authenticate(
-    names, usernames, hashed_passwords, "cookie_name", "signature_key", cookie_expiry_days=None
+    names, usernames, hashed_passwords, "cookie_name", "signature_key"
 )
 
 
