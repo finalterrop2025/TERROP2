@@ -11,3 +11,4 @@ scikit_learn
 streamlit
 streamlit_extras
 streamlit_option_menu
+streamlit_authenticator
