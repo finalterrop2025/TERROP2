@@ -8,7 +8,6 @@ from category_encoders import OrdinalEncoder
 from sklearn.preprocessing import LabelEncoder
 import geocoder
 import time
-import mysql.connector
 import os
 from dotenv import load_dotenv
 import sklearn
