@@ -2,15 +2,24 @@ import streamlit as st
 st.set_page_config(page_title="TERROP", page_icon='imag3.webp', layout="wide")
 import streamlit_authenticator as stauth
 from streamlit_extras.stylable_container import stylable_container
+import yaml
 
 names = ["Obinna Nwachukwu", "Jane Francis"]
-usernames = ["obison", "jane"]
+usernames = ["obigod", "jane"]
 # Hashed passwords (replace with securely generated hashed passwords)
-hashed_passwords = stauth.Hasher(['obison123', 'password456']).generate()
+hashed_passwords = stauth.Hasher(['obigod123', 'jane123']).generate()
+#st.write(hashed_passwords)
 
-# Setup authenticator object without saving session
+from yaml.loader import SafeLoader
+with open('config.yaml') as file:
+    config = yaml.load(file, Loader=SafeLoader)
+
 authenticator = stauth.Authenticate(
-    names, usernames, hashed_passwords, "cookie_name", "signature_key"
+    config['credentials'],
+    config['cookie']['name'],
+    config['cookie']['key'],
+    config['cookie']['expiry_days'],
+    config['preauthorized']
 )
 
 
