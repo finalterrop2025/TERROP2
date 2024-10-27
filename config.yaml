@@ -1,0 +1,19 @@
+credentials:
+  usernames:
+    obigod:
+      email: nobichukwum@gmail.com
+      name: Obinna Nwachukwu
+      password: $2b$12$/llxQ.r83zy0pEoTivP92OGVzv9hLJeamobHTqbJ/FKBimsUhN1h2 
+    jane:
+      email: myjanefrank@gmail.com
+      name: Jane Francis
+      password: $2b$12$O1TGuWZ8CaEvgQnLanV00utVUXKpYjS8XlH/elQhUzV0QgRxfp9Zq 
+
+cookie:
+  expiry_days: 1
+  key: "23af78c92bc84b7d04e8ff9c6b34a8d2b0d4f1e70f6cd3e97e122b7e4389b77b"  
+  name: "obinna_auth_cookie" 
+  
+preauthorized:
+  emails:
+    - nobichukwu@gmail.com
