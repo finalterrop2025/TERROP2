@@ -2,7 +2,6 @@ category_encoders
 firebase_admin
 geocoder
 joblib
-mysql_connector_repackaged
 mysql-connector-python
 pandas
 Pillow
