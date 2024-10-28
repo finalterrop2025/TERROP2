@@ -7,7 +7,7 @@ pandas
 Pillow
 Pyrebase4
 python-dotenv
-scikit_learn
+scikit-learn==1.4.0
 streamlit
 streamlit_extras
 streamlit_option_menu
