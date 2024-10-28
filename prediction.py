@@ -51,6 +51,9 @@ def app():
     # Load the trained Random Forest model
     model = joblib.load('final_model1.pkl') 
 
+    print(model.get_params())  
+    print(model._sklearn_version)  
+    
     # Load the encoders used during training
     #ordinal_encoders = joblib.load('re_ordinal_encoders.pkl')  # For year, month, and day
     state_label_encoder = joblib.load('state_label_encoder1.pkl')      # For State
