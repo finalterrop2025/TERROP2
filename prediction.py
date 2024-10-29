@@ -49,10 +49,7 @@ def app():
         unsafe_allow_html=True
     )
     # Load the trained Random Forest model
-    model = joblib.load('final_model3.pkl') 
-
-    print(model.get_params())  
-    print(model._sklearn_version)  
+    model = joblib.load('final_model3.pkl')  
     
     # Load the encoders used during training
     #ordinal_encoders = joblib.load('re_ordinal_encoders.pkl')  # For year, month, and day
