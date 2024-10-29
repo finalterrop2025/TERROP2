@@ -49,7 +49,7 @@ def app():
         unsafe_allow_html=True
     )
     # Load the trained Random Forest model
-    model = joblib.load('final_model2.pkl') 
+    model = joblib.load('final_model3.pkl') 
 
     print(model.get_params())  
     print(model._sklearn_version)  
