@@ -115,9 +115,9 @@ def app():
 
         # Automatically set mean_pct_read_seng15 and avg_unemploy_state based on selected State 
         mean_pct_read_seng15 = state_data[state_data['State'] == state]['mean_pct_read_seng15'].values[0]
-        # avg_houshold_size = state_data[state_data['State'] == state]['avg_houshold_size'].values[0]
+        avg_houshold_size = state_data[state_data['State'] == state]['avg_houshold_size'].values[0]
+        avg_unemploy_state = state_data[state_data['State'] == state]['avg_unemploy_state'].values[0]
 
-            
         # Input fields for year, month, and day
         year = st.number_input("Year", min_value=2000, max_value=2100, value=2024)
         month = st.number_input("Month", min_value=1, max_value=12, value=1)
@@ -126,7 +126,8 @@ def app():
     # Create a DataFrame for the inputs
     input_df = pd.DataFrame({
             'mean_pct_read_seng15': [mean_pct_read_seng15],
-        #   'avg_houshold_size': [avg_houshold_size],
+            'avg_houshold_size': [avg_houshold_size],
+            'avg_unemploy_state': [avg_unemploy_state],   
             'year': [year],
             'month': [month],
             'day': [day],
