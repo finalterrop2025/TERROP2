@@ -368,7 +368,7 @@ def app():
             col1, col2, col3 = st.columns([1, 0.3, 3])
             with col1:
                 st.session_state.form_submitted = False
-                st.rerun()
+                st.experimental_rerun()
             with col3:
                 if st.session_state.show_report:
                     show_reports = st.radio("Show submitted reports?", ("No", "Yes"))
