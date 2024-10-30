@@ -4,7 +4,7 @@ from streamlit_extras.stylable_container import stylable_container
 import yaml
 
 # Set page configuration
-st.set_page_config(page_title="TERROP", page_icon='imag3.webp', layout="wide")
+st.set_page_config(page_title="TERROP", page_icon='img10.jpg', layout="wide")
 
 names = ["Obinna Nwachukwu", "Jane Francis"]
 usernames = ["obigod", "jane"]
