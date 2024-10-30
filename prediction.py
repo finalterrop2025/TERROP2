@@ -62,7 +62,8 @@ def app():
     # Extract state-specific data
     state_data = training_data.groupby('State').agg({
         'mean_pct_read_seng15': 'mean',  
-    #   'avg_houshold_size': 'mean'
+        'avg_houshold_size': 'mean',
+        'avg_unemploy_state': 'mean'
     }).reset_index()
 
 
