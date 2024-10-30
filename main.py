@@ -3,6 +3,9 @@ import streamlit_authenticator as stauth
 from streamlit_extras.stylable_container import stylable_container
 import yaml
 
+# Set page configuration
+st.set_page_config(page_title="TERROP", page_icon='imag3.webp', layout="wide")
+
 names = ["Obinna Nwachukwu", "Jane Francis"]
 usernames = ["obigod", "jane"]
 # Hashed passwords (replace with securely generated hashed passwords)
@@ -20,10 +23,6 @@ authenticator = stauth.Authenticate(
     config['cookie']['expiry_days'],
     config['preauthorized']
 )
-
-
-# Set page configuration
-st.set_page_config(page_title="TERROP", page_icon='imag3.webp', layout="wide")
 
 # Function to handle login and signup form display
 def display_auth_form():
