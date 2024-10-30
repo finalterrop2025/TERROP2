@@ -1,5 +1,4 @@
 import streamlit as st
-st.set_page_config(page_title="TERROP", page_icon='imag3.webp', layout="wide")
 import streamlit_authenticator as stauth
 from streamlit_extras.stylable_container import stylable_container
 import yaml
@@ -23,6 +22,8 @@ authenticator = stauth.Authenticate(
 )
 
 
+# Set page configuration
+st.set_page_config(page_title="TERROP", page_icon='imag3.webp', layout="wide")
 
 # Function to handle login and signup form display
 def display_auth_form():
