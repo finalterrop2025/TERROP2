@@ -6,6 +6,19 @@ import yaml
 # Set page configuration
 st.set_page_config(page_title="TERROP", page_icon='img10.jpg', layout="wide")
 
+
+
+# Custom CSS to hide the Streamlit footer
+hide_streamlit_style = """
+    <style>
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    header {visibility: hidden;}
+    </style>
+    """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+
+
 names = ["Obinna Nwachukwu", "Jane Francis"]
 usernames = ["obigod", "jane"]
 # Hashed passwords (replace with securely generated hashed passwords)
