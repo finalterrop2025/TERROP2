@@ -233,13 +233,19 @@ def app():
 
     # Initialize session state to manage form submission
     if "form_submitted" not in st.session_state:
-        st.session_state.form_submitted = False
+        st.session_state["form_submitted"] = False
 
     if "show_report" not in st.session_state:
+        st.session_state["show_report"] = False
+
+    #if "form_submitted" not in st.session_state:
+     #   st.session_state.form_submitted = False
+
+    #if "show_report" not in st.session_state:
         st.session_state.show_report = False
 
     # Form for making a report
-    if not st.session_state.form_submitted:
+    if not st.session_state["form_submitted"]:
         placeholder = st.empty()
         col1, col2, col3, col4 = placeholder.columns([1, 1, 0.4, 3])  # Adjust column width ratio as needed
 
