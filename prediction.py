@@ -62,10 +62,9 @@ def app():
     # Extract state-specific data
     state_data = training_data.groupby('State').agg({
         'mean_pct_read_seng15': 'mean',  
-        'avg_houshold_size': 'mean',
-        'avg_unemploy_state': 'mean'
+        'avg_unemploy_state': 'mean',
+        'avg_houshold_size': 'mean'
     }).reset_index()
-
 
     
     st.markdown(
@@ -127,14 +126,13 @@ def app():
     # Create a DataFrame for the inputs
     input_df = pd.DataFrame({
             'mean_pct_read_seng15': [mean_pct_read_seng15],
-            'avg_houshold_size': [avg_houshold_size],
             'avg_unemploy_state': [avg_unemploy_state],   
+            'avg_houshold_size': [avg_houshold_size],
             'year': [year],
             'month': [month],
             'day': [day],
             'State': [state]
         })
-
         
 
         
