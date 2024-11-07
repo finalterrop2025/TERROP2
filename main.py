@@ -22,7 +22,7 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 names = ["Obinna Nwachukwu", "Jane Francis"]
 usernames = ["obigod", "jane"]
 # Hashed passwords (replace with securely generated hashed passwords)
-hashed_passwords = stauth.Hasher(['obigod123', 'jane123']).generate()
+hashed_passwords = stauth.Hasher(['obigod123', 'jane123']).hash()
 #st.write(hashed_passwords)
 
 from yaml.loader import SafeLoader
