@@ -19,15 +19,11 @@ hide_streamlit_style = """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 
-#names = ["Obinna Nwachukwu", "Jane Francis"]
-#usernames = ["obigod", "jane"]
+names = ["Obinna Nwachukwu", "Jane Francis"]
+usernames = ["obigod", "jane"]
 # Hashed passwords (replace with securely generated hashed passwords)
-#hashed_passwords = stauth.Hasher(['obigod123', 'jane123']).hash(['password123', 'password456'])
+hashed_passwords = stauth.Hasher(['obigod123', 'jane123']).generate()
 #st.write(hashed_passwords)
-
-# Hash each password individually 
-passwords = ['obigod123', 'jane123'] 
-hashed_passwords = [stauth.Hasher([password]).hash()[0] for password in passwords]
 
 from yaml.loader import SafeLoader
 with open('config.yaml') as file:
