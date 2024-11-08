@@ -76,7 +76,7 @@ def display_auth_form():
                 st.rerun()  # Rerun to reflect logout state
         else:
             # Display login form
-            name, authentication_status, username = authenticator.login("Login", location="main")
+            name, authentication_status, username = authenticator.login("Login", location="sidebar")
             
 
             # Check the authentication status 
