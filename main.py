@@ -11,7 +11,7 @@ st.set_page_config(page_title="TERROP", page_icon='img10.jpg', layout="wide")
 # Custom CSS to hide the Streamlit footer
 hide_streamlit_style = """
     <style>
-    #MainMenu {visibility: hidden;}
+    MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
     header {visibility: hidden;}
     </style>
@@ -76,7 +76,8 @@ def display_auth_form():
                 st.rerun()  # Rerun to reflect logout state
         else:
             # Display login form
-            name, authentication_status, username = authenticator.login("Login", "main")
+            name, authentication_status, username = authenticator.login("Login", location="main")
+            
 
             # Check the authentication status 
             if authentication_status:
