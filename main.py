@@ -76,7 +76,11 @@ def display_auth_form():
                 st.rerun()  # Rerun to reflect logout state
         else:
             # Display login form
-            name, authentication_status, username = authenticator.login('Login', 'main')
+
+            try:
+                name, authentication_status, username = authenticator.login(location='main')
+            except Exception as e:
+                st.error(e)
             
 
             # Check the authentication status 
