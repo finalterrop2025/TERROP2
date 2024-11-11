@@ -78,7 +78,7 @@ def display_auth_form():
             # Display login form
 
             try:
-                name, authentication_status, username = authenticator.login(location='main')
+                name, authentication_status, username = authenticator.login(location='main', key='Login')
             except Exception as e:
                 st.error(e)
             
