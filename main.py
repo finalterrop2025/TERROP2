@@ -78,7 +78,7 @@ def display_auth_form():
             # Display login form
 
             
-            result = name, authentication_status, username = authenticator.login(key='Login', location='main')
+            result = name, authentication_status, username = authenticator.login("Login", "main")
             st.write(result)
             
             
