@@ -78,8 +78,8 @@ def display_auth_form():
             # Display login form
 
             
-            name, authentication_status, username = authenticator.login(key='Login', location='main')
-            
+            result = name, authentication_status, username = authenticator.login(key='Login', location='main')
+            st.write(result)
             
             
 
