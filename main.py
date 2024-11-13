@@ -3,55 +3,31 @@ import streamlit_authenticator as stauth
 from streamlit_extras.stylable_container import stylable_container
 import yaml
 
-# Set page configuration
-st.set_page_config(page_title="TERROP", page_icon='img10.jpg', layout="wide")
+# Set page config
+st.set_page_config(page_title="TERROP", page_icon='imag3.webp', layout="wide")
 
-
-
-# Custom CSS to hide the Streamlit footer
-hide_streamlit_style = """
-    <style>
-    MainMenu {visibility: hidden;}
-    footer {visibility: hidden;}
-    header {visibility: hidden;}
-    </style>
-    """
-st.markdown(hide_streamlit_style, unsafe_allow_html=True)
-
-
-#names = ["Obinna Nwachukwu", "Jane Francis"]
-#usernames = ["obigod", "jane"]
-# Hashed passwords (replace with securely generated hashed passwords)
-#hashed_passwords = stauth.Hasher(['obigod123', 'jane123']).generate()
-#st.write(hashed_passwords)
-
-
-# Define user information
-#names = ["Obinna Nwachukwu", "Jane Francis"]
-#usernames = ["obigod", "jane"]
-
-# Generate hashed passwords
-# Replace 'obigod123' and 'jane123' with securely hashed passwords in production
-#plaintext_passwords = ['obigod123', 'jane123']
-#hashed_passwords = stauth.Hasher(plaintext_passwords).generate()
-
-
+# Load config from YAML file
 from yaml.loader import SafeLoader
 with open('config.yaml') as file:
     config = yaml.load(file, Loader=SafeLoader)
 
-stauth.Hasher.hash_passwords(config['credentials'])
+# Hash passwords securely (assuming this is for initial password setup)
+# This should be done only once during initial setup
+# Uncomment this line if you want to hash the passwords for storage
+#stauth.Hasher.hash_passwords(config['credentials'])
 
+# Initialize authenticator
 authenticator = stauth.Authenticate(
     config['credentials'],
     config['cookie']['name'],
     config['cookie']['key'],
     config['cookie']['expiry_days'],
-    #config['preauthorized']
+    # config['preauthorized']  # Uncomment if pre-authorized users are being used
 )
 
 # Function to handle login and signup form display
 def display_auth_form():
+    # Custom styles for the form
     change_singup_color = """
                 <style>
                 .st-emotion-cache-1jmvea6.e1nzilvr4 {
@@ -66,43 +42,34 @@ def display_auth_form():
 
     col1, col2, col3 = st.columns([2, 1, 2])
     with col2:
-        if st.session_state.get('logged_in', False):
-            st.subheader("You are logged in.")
+        # Check login state
+        if 'authentication_status' not in st.session_state:
+            st.session_state['authentication_status'] = None
+        if 'logged_in' not in st.session_state:
+            st.session_state['logged_in'] = False
+
+        if st.session_state['logged_in']:
+            st.subheader(f"Welcome, {st.session_state.get('name')}")
             if st.button("Logout", key="logout_button"):
-                # Logout and reset session
-                authenticator.logout('Logout', 'main')
-                st.session_state.clear()  # Clear all session states
-                st.session_state['logged_in'] = False  # Ensure logged_in is set to False
+                authenticator.logout()
+                st.session_state.clear()  # Clear session state
+                st.session_state['logged_in'] = False
+                st.session_state['authentication_status'] = None
                 st.rerun()  # Rerun to reflect logout state
         else:
-            # Display login form
+            try:
+                authenticator.login()
+            except Exception as e:
+                st.error(f"An error occurred during login: {e}")
 
-            
-            result = name, authentication_status, username = authenticator.login("Login", "main")
-            st.write(result)
-            
-            
-
-            # Check the authentication status 
-            if authentication_status:
-                st.session_state.logged_in = True
-                st.session_state.user_info = name
-                st.markdown(
-                    """
-                    <style>
-                    .st-emotion-cache-1rsyhoq.e1nzilvr5{
-                        color: #dfe0d3;
-                    }
-                    </style>
-                    """,
-                    unsafe_allow_html=True
-                )
-                st.success(f"Logged in successfully! Welcome, {name}")
-            elif authentication_status == False:
-                st.error("Username/password is incorrect")
-            elif authentication_status == None:
-                st.warning("Enter your username and password. If you don't have your login credentials, please contact the administrator for assistance")
-
+            # Check authentication status
+            if st.session_state['authentication_status']:
+                st.session_state['logged_in'] = True
+                st.write(f'Logged in successfully! Welcome *{st.session_state["name"]}*')
+            elif st.session_state['authentication_status'] is False:
+                st.error('Username/password is incorrect')
+            elif st.session_state['authentication_status'] is None:
+                st.warning('Please enter your username and password')
 
 # Main App Logic
 def app_main():
@@ -126,17 +93,7 @@ def app_main():
             self.apps.append({"title": title, "function": func})
 
         def run(self):
-
-            remove_bg_color = """
-                <style>
-                .stApp {
-                    background-color: transparent;
-                }
-                </style>
-                """
-            st.markdown(remove_bg_color, unsafe_allow_html=True)
-
-            @st.cache_data
+            # Set custom background for the page
             def get_base64_of_bin_file(bin_file):
                 with open(bin_file, 'rb') as f:
                     data = f.read()
@@ -158,6 +115,7 @@ def app_main():
 
             set_image_as_page_bg('images/header.jpg')
 
+            # Hide menu, footer, and header
             hide_menu_style = """
                 <style>
                 #MainMenu {visibility: hidden;}
@@ -194,6 +152,7 @@ def app_main():
                 }
             )
 
+            # Page navigation logic
             if app == "Home":
                 home.app()
             elif app == "About":
@@ -235,7 +194,4 @@ def app_main():
 
 # Main Entry
 if __name__ == "__main__":
-    if 'logged_in' not in st.session_state:
-        st.session_state.logged_in = False
-
     app_main()
