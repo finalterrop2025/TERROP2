@@ -14,7 +14,8 @@ with open('config.yaml') as file:
 # Hash passwords securely (assuming this is for initial password setup)
 # This should be done only once during initial setup
 # Uncomment this line if you want to hash the passwords for storage
-#stauth.Hasher.hash_passwords(config['credentials'])
+hashed_password = stauth.Hasher.hash_passwords(config['credentials'])
+st.write(hashed_password)
 
 # Initialize authenticator
 authenticator = stauth.Authenticate(
