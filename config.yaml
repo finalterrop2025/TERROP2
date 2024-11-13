@@ -11,7 +11,7 @@ credentials:
 cookie:
   expiry_days: 1
   key: "23af78c92bc84b7d04e8ff9c6b34a8d2b0d4f1e70f6cd3e97e122b7e4389b77b"  
-  name: "obinna_auth_cookie" 
+  name: "obigod_auth_cookie" 
   
 preauthorized:
   emails:
