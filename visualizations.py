@@ -235,6 +235,20 @@ def app():
        </div>
        """,
        unsafe_allow_html=True
+      )
+      st.markdown(
+       """
+       <style>
+           .st-emotion-cache-asc41u.e1nzilvr2 {
+             font-size: 18px !important;
+             color: white !important;
+             font-weight: bold !important;
+             margin-bottom: 5px !important;
+            }
+
+       </style>
+       """,
+       unsafe_allow_html=True
    )
 
 
