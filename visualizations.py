@@ -197,7 +197,7 @@ def app():
                border-radius: 15px;
            } 
 
-           .st-emotion-cache-gi0tri.e1nzilvr1 {
+           #selected-plots {
              font-size: 18px;
              color: white;
              font-weight: bold;
