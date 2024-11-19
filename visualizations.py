@@ -196,7 +196,7 @@ def app():
                 border-radius: 15px;
             } 
             
-             .st-emotion-cache-asc41u.e1nzilvr2 {
+            .st-emotion-cache-asc41u.e1nzilvr2 {
             font-size: 18px;
             color: white;
             font-weight: bold;
@@ -208,16 +208,15 @@ def app():
             color: white;
             font-weight: bold;
             margin-top: 5px;
-    }
+          }
     
          .st-emotion-cache-z1fhwk.e1nzilvr4 {
             font-size: 14px;
             color: white;
             font-weight: bold;
             margin-bottom: 10px;
-    }
+          }
 
-    
         </style>
         
         <div class="visualization-header">
@@ -228,9 +227,9 @@ def app():
             <span>Visualization of historical data</span>
             <div class="paragraph">
                 <p style="font-size: 20px; text-align: justify;">
-                    Explore interactive visualizations that highlight key areas at risk of terrorist attacks in Nigeria. 
+                    Explore interactive visualizations highlighting key areas at risk of terrorist attacks in Nigeria. 
                     Our dynamic maps and data-driven charts provide a clear view of past incidents and potential coordinates.
-                    Use these insights to better understand the distribution and frequency of attacks, helping to inform preventive measures and strategic planning.
+                    Use these insights to better understand the distribution and frequency of attacks, which will help inform preventive measures and strategic planning.
                     Navigate through the visuals to stay informed and proactive in enhancing security within vulnerable regions.
                 </p>
             </div>
@@ -240,7 +239,7 @@ def app():
     )
 
 
-    # Example list of plotly figures and interpretations
+    # plotly figures and interpretations
 
     # Group data by state and calculate total attacks, saving it to a column called 'Count'
     # Group data by state and calculate total attacks
