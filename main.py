@@ -83,7 +83,6 @@ def app_main():
     from sklearn.preprocessing import LabelEncoder
     import time
     import base64
-
     import home, visualizations, prediction, make_report, about
 
     class MultiApp:
