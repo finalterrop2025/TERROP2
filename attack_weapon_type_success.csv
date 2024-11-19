@@ -1,0 +1,89 @@
+attacktype1_txt,weapon_subtype,success
+Armed Assault,Arson/Fire,42
+Armed Assault,Automatic or Semi-Automatic Rifle,240
+Armed Assault,Dynamite/TNT,2
+Armed Assault,Gasoline or Alcohol,1
+Armed Assault,Grenade,21
+Armed Assault,Handgun,28
+Armed Assault,Knife or Other Sharp Object,63
+Armed Assault,Molotov Cocktail/Petrol Bomb,1
+Armed Assault,Other Explosive Type,5
+Armed Assault,"Projectile (rockets, mortars, RPGs, etc.)",142
+Armed Assault,Rifle/Shotgun (non-automatic),17
+Armed Assault,Suicide (carried bodily by human being),1
+Armed Assault,Unknown Explosive Type,68
+Armed Assault,Unknown Gun Type,2078
+Armed Assault,Unknown Weapon Type,4
+Assassination,Arson/Fire,2
+Assassination,Automatic or Semi-Automatic Rifle,10
+Assassination,Dynamite/TNT,0
+Assassination,Handgun,4
+Assassination,Knife or Other Sharp Object,5
+Assassination,Other Explosive Type,0
+Assassination,"Projectile (rockets, mortars, RPGs, etc.)",0
+Assassination,Rifle/Shotgun (non-automatic),1
+Assassination,Rope or Other Strangling Device,1
+Assassination,Sticky Bomb,0
+Assassination,Suicide (carried bodily by human being),0
+Assassination,Unknown Explosive Type,2
+Assassination,Unknown Gun Type,170
+Assassination,Unknown Weapon Type,7
+Assassination,Vehicle,1
+Bombing/Explosion,Automatic or Semi-Automatic Rifle,1
+Bombing/Explosion,Dynamite/TNT,58
+Bombing/Explosion,Explosive,1
+Bombing/Explosion,Grenade,7
+Bombing/Explosion,Landmine,36
+Bombing/Explosion,Letter Bomb,0
+Bombing/Explosion,Other Explosive Type,60
+Bombing/Explosion,Pressure Trigger,1
+Bombing/Explosion,"Projectile (rockets, mortars, RPGs, etc.)",29
+Bombing/Explosion,Remote Trigger,12
+Bombing/Explosion,Sticky Bomb,1
+Bombing/Explosion,Suicide (carried bodily by human being),349
+Bombing/Explosion,Time Fuse,7
+Bombing/Explosion,Unknown Explosive Type,486
+Bombing/Explosion,Vehicle,87
+Facility/Infrastructure Attack,Arson/Fire,238
+Facility/Infrastructure Attack,Automatic or Semi-Automatic Rifle,5
+Facility/Infrastructure Attack,Blunt Object,1
+Facility/Infrastructure Attack,Gasoline or Alcohol,5
+Facility/Infrastructure Attack,Handgun,1
+Facility/Infrastructure Attack,Knife or Other Sharp Object,1
+Facility/Infrastructure Attack,Molotov Cocktail/Petrol Bomb,9
+Facility/Infrastructure Attack,Rifle/Shotgun (non-automatic),0
+Facility/Infrastructure Attack,Unknown Gun Type,56
+Facility/Infrastructure Attack,Unknown Weapon Type,44
+Hijacking,"Projectile (rockets, mortars, RPGs, etc.)",1
+Hijacking,Unknown Gun Type,9
+Hijacking,Unknown Weapon Type,5
+Hostage Taking (Barricade Incident),Arson/Fire,1
+Hostage Taking (Barricade Incident),Automatic or Semi-Automatic Rifle,3
+Hostage Taking (Barricade Incident),Blunt Object,1
+Hostage Taking (Barricade Incident),Dynamite/TNT,1
+Hostage Taking (Barricade Incident),"Hands, Feet, Fists",1
+Hostage Taking (Barricade Incident),Unknown Gun Type,20
+Hostage Taking (Barricade Incident),Unknown Weapon Type,2
+Hostage Taking (Kidnapping),Arson/Fire,15
+Hostage Taking (Kidnapping),Automatic or Semi-Automatic Rifle,58
+Hostage Taking (Kidnapping),Dynamite/TNT,2
+Hostage Taking (Kidnapping),Grenade,1
+Hostage Taking (Kidnapping),Handgun,6
+Hostage Taking (Kidnapping),"Hands, Feet, Fists",3
+Hostage Taking (Kidnapping),Knife or Other Sharp Object,31
+Hostage Taking (Kidnapping),Other Explosive Type,3
+Hostage Taking (Kidnapping),"Projectile (rockets, mortars, RPGs, etc.)",16
+Hostage Taking (Kidnapping),Rifle/Shotgun (non-automatic),3
+Hostage Taking (Kidnapping),Rope or Other Strangling Device,1
+Hostage Taking (Kidnapping),Suicide (carried bodily by human being),3
+Hostage Taking (Kidnapping),Unknown Explosive Type,14
+Hostage Taking (Kidnapping),Unknown Gun Type,524
+Hostage Taking (Kidnapping),Unknown Weapon Type,130
+Unarmed Assault,Arson/Fire,1
+Unarmed Assault,Blunt Object,2
+Unarmed Assault,Gasoline or Alcohol,1
+Unarmed Assault,"Hands, Feet, Fists",3
+Unarmed Assault,Knife or Other Sharp Object,1
+Unarmed Assault,Molotov Cocktail/Petrol Bomb,1
+Unarmed Assault,Unknown Weapon Type,3
+Unknown,Unknown Weapon Type,217

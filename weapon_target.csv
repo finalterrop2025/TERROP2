@@ -1,0 +1,495 @@
+index,weapon_subtype,target_type,Count
+0,Unknown Gun Type,Private Citizens & Property,1755
+1,Unknown Gun Type,Government (General),325
+2,Unknown Weapon Type,Private Citizens & Property,245
+3,Unknown Gun Type,Police,242
+4,Unknown Gun Type,Military,221
+5,Automatic or Semi-Automatic Rifle,Private Citizens & Property,178
+6,Suicide (carried bodily by human being),Private Citizens & Property,165
+7,Unknown Gun Type,Business,151
+8,Arson/Fire,Private Citizens & Property,150
+9,Unknown Explosive Type,Private Citizens & Property,140
+10,Unknown Gun Type,Religious Figures/Institutions,134
+11,Unknown Explosive Type,Police,88
+12,Unknown Weapon Type,Military,87
+13,Unknown Explosive Type,Utilities,87
+14,Unknown Explosive Type,Military,82
+15,Knife or Other Sharp Object,Private Citizens & Property,81
+16,"Projectile (rockets, mortars, RPGs, etc.)",Private Citizens & Property,78
+17,Automatic or Semi-Automatic Rifle,Military,73
+18,"Projectile (rockets, mortars, RPGs, etc.)",Military,68
+19,Unknown Gun Type,Educational Institution,64
+20,Unknown Explosive Type,Unknown,60
+21,Unknown Explosive Type,Business,58
+22,Suicide (carried bodily by human being),Unknown,54
+23,Suicide (carried bodily by human being),Military,52
+24,Suicide (carried bodily by human being),Religious Figures/Institutions,52
+25,Unknown Explosive Type,Government (General),50
+26,Arson/Fire,Government (General),42
+27,Unknown Explosive Type,Religious Figures/Institutions,40
+28,Unknown Weapon Type,Business,35
+29,Unknown Weapon Type,Government (General),34
+30,Automatic or Semi-Automatic Rifle,Government (General),34
+31,Unknown Gun Type,Violent Political Party,34
+32,Dynamite/TNT,Utilities,30
+33,Handgun,Private Citizens & Property,30
+34,Arson/Fire,Educational Institution,30
+35,"Projectile (rockets, mortars, RPGs, etc.)",Police,28
+36,Automatic or Semi-Automatic Rifle,Police,27
+37,Vehicle,Military,27
+38,Arson/Fire,Telecommunication,23
+39,Other Explosive Type,Private Citizens & Property,23
+40,Unknown Gun Type,Journalists & Media,22
+41,Suicide (carried bodily by human being),Business,22
+42,Arson/Fire,Religious Figures/Institutions,21
+43,Landmine,Military,20
+44,Unknown Explosive Type,Educational Institution,20
+45,Suicide (carried bodily by human being),Terrorists/Non-State Militia,20
+46,Unknown Explosive Type,Transportation,19
+47,Unknown Gun Type,Terrorists/Non-State Militia,19
+48,Unknown Gun Type,Transportation,18
+49,Vehicle,Religious Figures/Institutions,18
+50,Unknown Gun Type,Maritime,17
+51,Vehicle,Private Citizens & Property,17
+52,Suicide (carried bodily by human being),Educational Institution,17
+53,Suicide (carried bodily by human being),Transportation,16
+54,Grenade,Private Citizens & Property,15
+55,Other Explosive Type,Government (General),14
+56,Vehicle,Police,13
+57,Dynamite/TNT,Government (General),13
+58,Automatic or Semi-Automatic Rifle,Business,13
+59,Arson/Fire,Police,13
+60,Unknown Weapon Type,Utilities,13
+61,Vehicle,Unknown,11
+62,Suicide (carried bodily by human being),Government (General),10
+63,Other Explosive Type,Business,10
+64,Unknown Gun Type,Government (Diplomatic),10
+65,Unknown Weapon Type,Police,10
+66,Unknown Weapon Type,Religious Figures/Institutions,10
+67,Other Explosive Type,Religious Figures/Institutions,10
+68,Dynamite/TNT,Private Citizens & Property,9
+69,Unknown Gun Type,Utilities,9
+70,Grenade,Military,9
+71,Landmine,Private Citizens & Property,9
+72,Unknown Explosive Type,Telecommunication,8
+73,Suicide (carried bodily by human being),Police,8
+74,Vehicle,Government (General),8
+75,"Projectile (rockets, mortars, RPGs, etc.)",Business,8
+76,Automatic or Semi-Automatic Rifle,Religious Figures/Institutions,8
+77,Vehicle,Business,8
+78,Arson/Fire,Business,8
+79,Rifle/Shotgun (non-automatic),Private Citizens & Property,8
+80,Unknown Weapon Type,Transportation,7
+81,Other Explosive Type,Police,7
+82,Unknown Weapon Type,Maritime,7
+83,Arson/Fire,Military,6
+84,Dynamite/TNT,Business,6
+85,Vehicle,Transportation,6
+86,Unknown Gun Type,NGO,5
+87,Landmine,Terrorists/Non-State Militia,5
+88,Dynamite/TNT,Police,5
+89,Arson/Fire,Violent Political Party,5
+90,Unknown Weapon Type,Educational Institution,5
+91,Other Explosive Type,Utilities,5
+92,Knife or Other Sharp Object,Government (General),4
+93,Unknown Gun Type,Telecommunication,4
+94,Automatic or Semi-Automatic Rifle,Educational Institution,4
+95,Time Fuse,Private Citizens & Property,4
+96,Remote Trigger,Military,4
+97,"Hands, Feet, Fists",Private Citizens & Property,4
+98,Unknown Weapon Type,Government (Diplomatic),4
+99,Other Explosive Type,Unknown,4
+100,Grenade,Educational Institution,3
+101,Unknown Weapon Type,Violent Political Party,3
+102,Automatic or Semi-Automatic Rifle,Terrorists/Non-State Militia,3
+103,Automatic or Semi-Automatic Rifle,Utilities,3
+104,Knife or Other Sharp Object,Violent Political Party,3
+105,Rifle/Shotgun (non-automatic),Religious Figures/Institutions,3
+106,Vehicle,Journalists & Media,3
+107,Other Explosive Type,Transportation,3
+108,Gasoline or Alcohol,Educational Institution,3
+109,Knife or Other Sharp Object,Religious Figures/Institutions,3
+110,"Projectile (rockets, mortars, RPGs, etc.)",Government (General),3
+111,Grenade,Police,3
+112,Unknown Explosive Type,Terrorists/Non-State Militia,3
+113,Remote Trigger,Utilities,3
+114,Rifle/Shotgun (non-automatic),Business,3
+115,Unknown Weapon Type,NGO,3
+116,Rifle/Shotgun (non-automatic),Military,3
+117,Unknown Weapon Type,Journalists & Media,3
+118,Landmine,Business,3
+119,Handgun,Business,3
+120,Automatic or Semi-Automatic Rifle,Government (Diplomatic),3
+121,Molotov Cocktail/Petrol Bomb,Educational Institution,2
+122,Molotov Cocktail/Petrol Bomb,Business,2
+123,Knife or Other Sharp Object,Business,2
+124,Handgun,Government (General),2
+125,Handgun,Government (Diplomatic),2
+126,Time Fuse,Religious Figures/Institutions,2
+127,Time Fuse,Educational Institution,2
+128,Knife or Other Sharp Object,Military,2
+129,Knife or Other Sharp Object,Police,2
+130,"Hands, Feet, Fists",Religious Figures/Institutions,2
+131,Knife or Other Sharp Object,Terrorists/Non-State Militia,2
+132,Time Fuse,Business,2
+133,Molotov Cocktail/Petrol Bomb,Government (General),2
+134,Knife or Other Sharp Object,Journalists & Media,2
+135,Rope or Other Strangling Device,Educational Institution,2
+136,Unknown Explosive Type,Maritime,2
+137,Blunt Object,Journalists & Media,2
+138,Unknown Weapon Type,Terrorists/Non-State Militia,2
+139,Unknown Weapon Type,Telecommunication,2
+140,"Projectile (rockets, mortars, RPGs, etc.)",Educational Institution,2
+141,Automatic or Semi-Automatic Rifle,Transportation,2
+142,Rifle/Shotgun (non-automatic),Government (General),2
+143,Dynamite/TNT,Transportation,2
+144,Unknown Gun Type,Airports & Aircraft,2
+145,Unknown Explosive Type,Violent Political Party,2
+146,Other Explosive Type,Military,2
+147,Rifle/Shotgun (non-automatic),Police,2
+148,"Projectile (rockets, mortars, RPGs, etc.)",Government (Diplomatic),2
+149,Automatic or Semi-Automatic Rifle,NGO,2
+150,Remote Trigger,Business,2
+151,Unknown Explosive Type,Journalists & Media,2
+152,"Projectile (rockets, mortars, RPGs, etc.)",Terrorists/Non-State Militia,2
+153,"Projectile (rockets, mortars, RPGs, etc.)",Transportation,2
+154,Molotov Cocktail/Petrol Bomb,Private Citizens & Property,2
+155,Time Fuse,Unknown,2
+156,Vehicle,Government (Diplomatic),2
+157,Remote Trigger,Private Citizens & Property,1
+158,Remote Trigger,Government (General),1
+159,Knife or Other Sharp Object,Maritime,1
+160,Remote Trigger,Police,1
+161,Knife or Other Sharp Object,Transportation,1
+162,Pressure Trigger,Religious Figures/Institutions,1
+163,Remote Trigger,Unknown,1
+164,Pressure Trigger,Military,1
+165,Molotov Cocktail/Petrol Bomb,Military,1
+166,Rifle/Shotgun (non-automatic),Educational Institution,1
+167,Landmine,Unknown,1
+168,Sticky Bomb,Government (General),1
+169,Other Explosive Type,Educational Institution,1
+170,Letter Bomb,Business,1
+171,Molotov Cocktail/Petrol Bomb,Religious Figures/Institutions,1
+172,Sticky Bomb,Business,1
+173,Molotov Cocktail/Petrol Bomb,Police,1
+174,Time Fuse,Government (General),1
+175,"Projectile (rockets, mortars, RPGs, etc.)",Violent Political Party,1
+176,Time Fuse,Police,1
+177,Unknown Weapon Type,Unknown,1
+178,Handgun,Journalists & Media,1
+179,Blunt Object,Government (General),1
+180,Vehicle,Educational Institution,1
+181,Gasoline or Alcohol,Military,1
+182,Gasoline or Alcohol,Journalists & Media,1
+183,Unknown Gun Type,Other,1
+184,Blunt Object,Police,1
+185,Dynamite/TNT,Educational Institution,1
+186,Handgun,Educational Institution,1
+187,Explosive,Military,1
+188,Handgun,Police,1
+189,Unknown Gun Type,Unknown,1
+190,Handgun,Military,1
+191,Unknown Weapon Type,Other,1
+192,Dynamite/TNT,Maritime,1
+193,Dynamite/TNT,Religious Figures/Institutions,1
+194,Dynamite/TNT,Telecommunication,1
+195,Gasoline or Alcohol,Police,1
+196,Gasoline or Alcohol,Utilities,1
+197,Unknown Explosive Type,Government (Diplomatic),1
+198,Arson/Fire,NGO,1
+199,Arson/Fire,Other,1
+200,Arson/Fire,Terrorists/Non-State Militia,1
+201,Knife or Other Sharp Object,Educational Institution,1
+202,Suicide (carried bodily by human being),Violent Political Party,1
+203,"Hands, Feet, Fists",Government (General),1
+204,Automatic or Semi-Automatic Rifle,Violent Political Party,1
+205,Grenade,Religious Figures/Institutions,1
+206,Grenade,Government (General),1
+207,Arson/Fire,Utilities,1
+208,Automatic or Semi-Automatic Rifle,Maritime,1
+209,Vehicle,NGO,1
+210,Dynamite/TNT,Unknown,1
+211,Rifle/Shotgun (non-automatic),NGO,0
+212,Rifle/Shotgun (non-automatic),Other,0
+213,Unknown Explosive Type,NGO,0
+214,Rifle/Shotgun (non-automatic),Maritime,0
+215,Unknown Explosive Type,Other,0
+216,Rifle/Shotgun (non-automatic),Telecommunication,0
+217,Unknown Weapon Type,Airports & Aircraft,0
+218,Rifle/Shotgun (non-automatic),Terrorists/Non-State Militia,0
+219,Suicide (carried bodily by human being),Journalists & Media,0
+220,Rifle/Shotgun (non-automatic),Journalists & Media,0
+221,Vehicle,Maritime,0
+222,Vehicle,Utilities,0
+223,Remote Trigger,Airports & Aircraft,0
+224,Vehicle,Terrorists/Non-State Militia,0
+225,Remote Trigger,Educational Institution,0
+226,Remote Trigger,Government (Diplomatic),0
+227,Vehicle,Telecommunication,0
+228,Remote Trigger,Journalists & Media,0
+229,Vehicle,Other,0
+230,Remote Trigger,Maritime,0
+231,Remote Trigger,NGO,0
+232,Rifle/Shotgun (non-automatic),Government (Diplomatic),0
+233,Remote Trigger,Other,0
+234,Remote Trigger,Religious Figures/Institutions,0
+235,Vehicle,Airports & Aircraft,0
+236,Remote Trigger,Telecommunication,0
+237,Remote Trigger,Terrorists/Non-State Militia,0
+238,Remote Trigger,Transportation,0
+239,Rifle/Shotgun (non-automatic),Unknown,0
+240,Remote Trigger,Violent Political Party,0
+241,Rifle/Shotgun (non-automatic),Airports & Aircraft,0
+242,Rifle/Shotgun (non-automatic),Transportation,0
+243,Time Fuse,Violent Political Party,0
+244,Rifle/Shotgun (non-automatic),Utilities,0
+245,Sticky Bomb,Unknown,0
+246,Sticky Bomb,Military,0
+247,Time Fuse,NGO,0
+248,Sticky Bomb,NGO,0
+249,Sticky Bomb,Other,0
+250,Time Fuse,Military,0
+251,Sticky Bomb,Police,0
+252,Sticky Bomb,Private Citizens & Property,0
+253,Sticky Bomb,Religious Figures/Institutions,0
+254,Time Fuse,Maritime,0
+255,Sticky Bomb,Telecommunication,0
+256,Sticky Bomb,Terrorists/Non-State Militia,0
+257,Sticky Bomb,Transportation,0
+258,Sticky Bomb,Utilities,0
+259,Rifle/Shotgun (non-automatic),Violent Political Party,0
+260,Time Fuse,Journalists & Media,0
+261,Sticky Bomb,Violent Political Party,0
+262,"Projectile (rockets, mortars, RPGs, etc.)",Utilities,0
+263,Suicide (carried bodily by human being),Airports & Aircraft,0
+264,Time Fuse,Government (Diplomatic),0
+265,Time Fuse,Airports & Aircraft,0
+266,Suicide (carried bodily by human being),Utilities,0
+267,Suicide (carried bodily by human being),Telecommunication,0
+268,Suicide (carried bodily by human being),Other,0
+269,Suicide (carried bodily by human being),Government (Diplomatic),0
+270,Suicide (carried bodily by human being),NGO,0
+271,Suicide (carried bodily by human being),Maritime,0
+272,Time Fuse,Other,0
+273,Sticky Bomb,Maritime,0
+274,Sticky Bomb,Journalists & Media,0
+275,Sticky Bomb,Government (Diplomatic),0
+276,Unknown Explosive Type,Airports & Aircraft,0
+277,Time Fuse,Utilities,0
+278,Rope or Other Strangling Device,Airports & Aircraft,0
+279,Rope or Other Strangling Device,Business,0
+280,Time Fuse,Transportation,0
+281,Time Fuse,Terrorists/Non-State Militia,0
+282,Rope or Other Strangling Device,Government (Diplomatic),0
+283,Rope or Other Strangling Device,Government (General),0
+284,Time Fuse,Telecommunication,0
+285,Rope or Other Strangling Device,Journalists & Media,0
+286,Rope or Other Strangling Device,Maritime,0
+287,Rope or Other Strangling Device,Military,0
+288,Rope or Other Strangling Device,NGO,0
+289,Rope or Other Strangling Device,Other,0
+290,Rope or Other Strangling Device,Police,0
+291,Rope or Other Strangling Device,Private Citizens & Property,0
+292,Rope or Other Strangling Device,Religious Figures/Institutions,0
+293,Rope or Other Strangling Device,Telecommunication,0
+294,Rope or Other Strangling Device,Terrorists/Non-State Militia,0
+295,Rope or Other Strangling Device,Transportation,0
+296,Rope or Other Strangling Device,Unknown,0
+297,Rope or Other Strangling Device,Utilities,0
+298,Rope or Other Strangling Device,Violent Political Party,0
+299,Sticky Bomb,Airports & Aircraft,0
+300,Sticky Bomb,Educational Institution,0
+301,Arson/Fire,Airports & Aircraft,0
+302,Other Explosive Type,Airports & Aircraft,0
+303,"Projectile (rockets, mortars, RPGs, etc.)",Unknown,0
+304,Gasoline or Alcohol,Other,0
+305,Grenade,Business,0
+306,Grenade,Airports & Aircraft,0
+307,Gasoline or Alcohol,Violent Political Party,0
+308,Gasoline or Alcohol,Unknown,0
+309,Gasoline or Alcohol,Transportation,0
+310,Gasoline or Alcohol,Terrorists/Non-State Militia,0
+311,Gasoline or Alcohol,Telecommunication,0
+312,Gasoline or Alcohol,Religious Figures/Institutions,0
+313,Gasoline or Alcohol,Private Citizens & Property,0
+314,Gasoline or Alcohol,NGO,0
+315,Grenade,Journalists & Media,0
+316,Gasoline or Alcohol,Maritime,0
+317,Gasoline or Alcohol,Government (General),0
+318,Gasoline or Alcohol,Government (Diplomatic),0
+319,Gasoline or Alcohol,Business,0
+320,Gasoline or Alcohol,Airports & Aircraft,0
+321,Explosive,Violent Political Party,0
+322,Explosive,Utilities,0
+323,Explosive,Unknown,0
+324,Explosive,Transportation,0
+325,Grenade,Government (Diplomatic),0
+326,Grenade,Maritime,0
+327,Explosive,Telecommunication,0
+328,Handgun,Other,0
+329,"Hands, Feet, Fists",Business,0
+330,"Hands, Feet, Fists",Airports & Aircraft,0
+331,Handgun,Violent Political Party,0
+332,Handgun,Utilities,0
+333,Handgun,Unknown,0
+334,Handgun,Transportation,0
+335,Handgun,Terrorists/Non-State Militia,0
+336,Handgun,Telecommunication,0
+337,Handgun,Religious Figures/Institutions,0
+338,Handgun,NGO,0
+339,Grenade,NGO,0
+340,Handgun,Maritime,0
+341,Handgun,Airports & Aircraft,0
+342,Grenade,Violent Political Party,0
+343,Grenade,Utilities,0
+344,Grenade,Unknown,0
+345,Grenade,Transportation,0
+346,Grenade,Terrorists/Non-State Militia,0
+347,Grenade,Telecommunication,0
+348,Grenade,Other,0
+349,Explosive,Terrorists/Non-State Militia,0
+350,Explosive,Religious Figures/Institutions,0
+351,"Hands, Feet, Fists",Government (Diplomatic),0
+352,Blunt Object,Airports & Aircraft,0
+353,Blunt Object,Religious Figures/Institutions,0
+354,Blunt Object,Private Citizens & Property,0
+355,Blunt Object,Other,0
+356,Blunt Object,NGO,0
+357,Blunt Object,Military,0
+358,Blunt Object,Maritime,0
+359,Blunt Object,Government (Diplomatic),0
+360,Blunt Object,Educational Institution,0
+361,Blunt Object,Business,0
+362,Automatic or Semi-Automatic Rifle,Unknown,0
+363,Blunt Object,Terrorists/Non-State Militia,0
+364,Automatic or Semi-Automatic Rifle,Telecommunication,0
+365,Automatic or Semi-Automatic Rifle,Other,0
+366,Automatic or Semi-Automatic Rifle,Journalists & Media,0
+367,Automatic or Semi-Automatic Rifle,Airports & Aircraft,0
+368,Arson/Fire,Unknown,0
+369,Arson/Fire,Transportation,0
+370,Arson/Fire,Maritime,0
+371,Arson/Fire,Journalists & Media,0
+372,Arson/Fire,Government (Diplomatic),0
+373,Blunt Object,Telecommunication,0
+374,Blunt Object,Transportation,0
+375,Explosive,Private Citizens & Property,0
+376,Explosive,Airports & Aircraft,0
+377,Explosive,Police,0
+378,Explosive,Other,0
+379,Explosive,NGO,0
+380,Explosive,Maritime,0
+381,Explosive,Journalists & Media,0
+382,Explosive,Government (General),0
+383,Explosive,Government (Diplomatic),0
+384,Explosive,Educational Institution,0
+385,Explosive,Business,0
+386,Dynamite/TNT,Violent Political Party,0
+387,Blunt Object,Unknown,0
+388,Dynamite/TNT,Terrorists/Non-State Militia,0
+389,Dynamite/TNT,Other,0
+390,Dynamite/TNT,NGO,0
+391,Dynamite/TNT,Military,0
+392,Dynamite/TNT,Journalists & Media,0
+393,Dynamite/TNT,Government (Diplomatic),0
+394,Dynamite/TNT,Airports & Aircraft,0
+395,Blunt Object,Violent Political Party,0
+396,Blunt Object,Utilities,0
+397,"Hands, Feet, Fists",Educational Institution,0
+398,"Hands, Feet, Fists",Journalists & Media,0
+399,"Projectile (rockets, mortars, RPGs, etc.)",Telecommunication,0
+400,Molotov Cocktail/Petrol Bomb,Unknown,0
+401,Other Explosive Type,Terrorists/Non-State Militia,0
+402,Other Explosive Type,Telecommunication,0
+403,Other Explosive Type,Other,0
+404,Other Explosive Type,NGO,0
+405,Other Explosive Type,Maritime,0
+406,Other Explosive Type,Journalists & Media,0
+407,Other Explosive Type,Government (Diplomatic),0
+408,Molotov Cocktail/Petrol Bomb,Violent Political Party,0
+409,Molotov Cocktail/Petrol Bomb,Utilities,0
+410,Molotov Cocktail/Petrol Bomb,Transportation,0
+411,Pressure Trigger,Airports & Aircraft,0
+412,Molotov Cocktail/Petrol Bomb,Terrorists/Non-State Militia,0
+413,Molotov Cocktail/Petrol Bomb,Telecommunication,0
+414,Molotov Cocktail/Petrol Bomb,Other,0
+415,Molotov Cocktail/Petrol Bomb,NGO,0
+416,Molotov Cocktail/Petrol Bomb,Maritime,0
+417,Molotov Cocktail/Petrol Bomb,Journalists & Media,0
+418,Molotov Cocktail/Petrol Bomb,Government (Diplomatic),0
+419,Molotov Cocktail/Petrol Bomb,Airports & Aircraft,0
+420,Letter Bomb,Violent Political Party,0
+421,Other Explosive Type,Violent Political Party,0
+422,Pressure Trigger,Business,0
+423,Letter Bomb,Unknown,0
+424,Pressure Trigger,Transportation,0
+425,"Projectile (rockets, mortars, RPGs, etc.)",Religious Figures/Institutions,0
+426,"Projectile (rockets, mortars, RPGs, etc.)",Other,0
+427,"Projectile (rockets, mortars, RPGs, etc.)",NGO,0
+428,"Projectile (rockets, mortars, RPGs, etc.)",Maritime,0
+429,"Projectile (rockets, mortars, RPGs, etc.)",Journalists & Media,0
+430,"Projectile (rockets, mortars, RPGs, etc.)",Airports & Aircraft,0
+431,Pressure Trigger,Violent Political Party,0
+432,Pressure Trigger,Utilities,0
+433,Pressure Trigger,Unknown,0
+434,Pressure Trigger,Terrorists/Non-State Militia,0
+435,Pressure Trigger,Educational Institution,0
+436,Pressure Trigger,Telecommunication,0
+437,Pressure Trigger,Private Citizens & Property,0
+438,Pressure Trigger,Police,0
+439,Pressure Trigger,Other,0
+440,Pressure Trigger,NGO,0
+441,Pressure Trigger,Maritime,0
+442,Pressure Trigger,Journalists & Media,0
+443,Pressure Trigger,Government (General),0
+444,Pressure Trigger,Government (Diplomatic),0
+445,Letter Bomb,Utilities,0
+446,Letter Bomb,Transportation,0
+447,"Hands, Feet, Fists",Maritime,0
+448,Knife or Other Sharp Object,Airports & Aircraft,0
+449,Landmine,Government (Diplomatic),0
+450,Landmine,Educational Institution,0
+451,Landmine,Airports & Aircraft,0
+452,Knife or Other Sharp Object,Utilities,0
+453,Knife or Other Sharp Object,Unknown,0
+454,Knife or Other Sharp Object,Telecommunication,0
+455,Knife or Other Sharp Object,Other,0
+456,Knife or Other Sharp Object,NGO,0
+457,Knife or Other Sharp Object,Government (Diplomatic),0
+458,"Hands, Feet, Fists",Violent Political Party,0
+459,Landmine,Journalists & Media,0
+460,"Hands, Feet, Fists",Utilities,0
+461,"Hands, Feet, Fists",Unknown,0
+462,"Hands, Feet, Fists",Transportation,0
+463,"Hands, Feet, Fists",Terrorists/Non-State Militia,0
+464,"Hands, Feet, Fists",Telecommunication,0
+465,"Hands, Feet, Fists",Police,0
+466,"Hands, Feet, Fists",Other,0
+467,"Hands, Feet, Fists",NGO,0
+468,"Hands, Feet, Fists",Military,0
+469,Landmine,Government (General),0
+470,Landmine,Maritime,0
+471,Letter Bomb,Terrorists/Non-State Militia,0
+472,Letter Bomb,Government (General),0
+473,Letter Bomb,Telecommunication,0
+474,Letter Bomb,Religious Figures/Institutions,0
+475,Letter Bomb,Private Citizens & Property,0
+476,Letter Bomb,Police,0
+477,Letter Bomb,Other,0
+478,Letter Bomb,NGO,0
+479,Letter Bomb,Military,0
+480,Letter Bomb,Maritime,0
+481,Letter Bomb,Journalists & Media,0
+482,Letter Bomb,Government (Diplomatic),0
+483,Landmine,NGO,0
+484,Letter Bomb,Educational Institution,0
+485,Letter Bomb,Airports & Aircraft,0
+486,Landmine,Violent Political Party,0
+487,Landmine,Utilities,0
+488,Landmine,Transportation,0
+489,Landmine,Telecommunication,0
+490,Landmine,Religious Figures/Institutions,0
+491,Landmine,Police,0
+492,Landmine,Other,0
+493,Vehicle,Violent Political Party,0
