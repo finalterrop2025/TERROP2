@@ -230,7 +230,7 @@ def app():
        """,
        unsafe_allow_html=True
       )
-   st.markdown(
+    st.markdown(
        """
        <style>
            .st-emotion-cache-asc41u.e1nzilvr2 {
