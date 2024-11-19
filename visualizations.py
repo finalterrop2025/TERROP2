@@ -316,11 +316,10 @@ def app():
           
        </style>
        <div class="visualization-header">
-           <h1 style='color:#a5abab;'>Visualization</h1>
+           <h1 style='color:#f5e487;'>Visualization of Historical Data</h1>
        </div>
    
        <div class="visualization-text">
-           <span style='color:#f5e487;'>Visualization of historical data</span>
            <div class="paragraph">
                <p style="font-size: 20px; text-align: justify;">
                    Explore interactive visualizations highlighting key areas at risk of terrorist attacks in Nigeria. 
