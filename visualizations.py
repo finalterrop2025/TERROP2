@@ -198,7 +198,7 @@ def app():
            } 
 
            #selected-plots {
-             font-size: 18px;
+             font-size: 24px;
              color: white;
              font-weight: bold;
              margin-bottom: 5px;
