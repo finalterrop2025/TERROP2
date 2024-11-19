@@ -204,7 +204,7 @@ def app():
              margin-bottom: 5px;
             }
 
-            .st-emotion-cache-asc41u.e1nzilvr2 {
+            #number-of-attacks-by-day-of-the-week {
              font-size: 26px;
              color: white;
              font-weight: bold;
