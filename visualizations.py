@@ -210,13 +210,7 @@ def app():
                font-weight: bold;
                margin-bottom: 10px;
            }
-           .st-emotion-cache-asc41u.e1nzilvr2 {
-             font-size: 18px !important;
-             color: white !important;
-             font-weight: bold !important;
-             margin-bottom: 5px !important;
-            }
-
+          
        </style>
        <div class="visualization-header">
            <h1 style='color:#a5abab;'>Visualization</h1>
@@ -236,7 +230,7 @@ def app():
        """,
        unsafe_allow_html=True
       )
-      st.markdown(
+   st.markdown(
        """
        <style>
            .st-emotion-cache-asc41u.e1nzilvr2 {
@@ -249,7 +243,7 @@ def app():
        </style>
        """,
        unsafe_allow_html=True
-   )
+      )
 
 
     # plotly figures and interpretations
