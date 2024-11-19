@@ -199,7 +199,7 @@ def app():
 
            #selected-plots {
              font-size: 30px;
-             color: white;
+             color: #f5e487;
              font-weight: bold;
              margin-bottom: 5px;
             }
@@ -309,7 +309,7 @@ def app():
        
            .st-emotion-cache-z1fhwk.e1nzilvr4 {
                font-size: 16px;
-               color: #f5e487;
+               color: white;
                font-weight: bold;
                margin-bottom: 10px;
            }
