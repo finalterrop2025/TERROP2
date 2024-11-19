@@ -195,19 +195,22 @@ def app():
                 margin: 20px;
                 border-radius: 15px;
             } 
-             .st-emotion-cache-pgf13w.e1nzilvr3 {
+            
+             st-emotion-cache-asc41u.e1nzilvr2 {
             font-size: 18px;
             color: white;
             font-weight: bold;
             margin-bottom: 5px;
     }
-     .st-emotion-cache-phe2gf.e1nzilvr5 {
+    
+         .st-emotion-cache-vdokb0.e1nzilvr4 {
             font-size: 12px;
             color: white;
             font-weight: bold;
             margin-top: 5px;
     }
-     .st-emotion-cache-uuorpk.e1nzilvr5 {
+    
+         .st-emotion-cache-z1fhwk.e1nzilvr4 {
             font-size: 14px;
             color: white;
             font-weight: bold;
