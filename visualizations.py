@@ -308,8 +308,8 @@ def app():
            }
        
            .st-emotion-cache-z1fhwk.e1nzilvr4 {
-               font-size: 14px;
-               color: white;
+               font-size: 16px;
+               color: #ede4ca;
                font-weight: bold;
                margin-bottom: 10px;
            }
