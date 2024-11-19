@@ -234,10 +234,10 @@ def app():
        """
        <style>
            .st-emotion-cache-asc41u.e1nzilvr2 {
-             font-size: 18px !important;
-             color: white !important;
-             font-weight: bold !important;
-             margin-bottom: 5px !important;
+             font-size: 18px;
+             color: white;
+             font-weight: bold;
+             margin-bottom: 5px;
             }
 
        </style>
