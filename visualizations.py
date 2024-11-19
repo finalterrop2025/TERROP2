@@ -196,12 +196,12 @@ def app():
                 border-radius: 15px;
             } 
             
-             st-emotion-cache-asc41u.e1nzilvr2 {
+             .st-emotion-cache-asc41u.e1nzilvr2 {
             font-size: 18px;
             color: white;
             font-weight: bold;
             margin-bottom: 5px;
-    }
+          }
     
          .st-emotion-cache-vdokb0.e1nzilvr4 {
             font-size: 12px;
