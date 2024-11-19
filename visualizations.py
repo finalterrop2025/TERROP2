@@ -198,7 +198,14 @@ def app():
            } 
 
            #selected-plots {
-             font-size: 24px;
+             font-size: 30px;
+             color: white;
+             font-weight: bold;
+             margin-bottom: 5px;
+            }
+
+            .st-emotion-cache-asc41u.e1nzilvr2 {
+             font-size: 26px;
              color: white;
              font-weight: bold;
              margin-bottom: 5px;
