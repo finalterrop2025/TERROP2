@@ -180,7 +180,7 @@ def app():
            .visualization-header span {
                font-size: 24px;
                font-weight: bold;
-               color: white; 
+               color: #f5e487; 
            }
            .visualization-text {
                padding: 10px;
