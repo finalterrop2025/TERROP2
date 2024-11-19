@@ -210,6 +210,27 @@ def app():
              font-weight: bold;
              margin-bottom: 5px;
             }
+             #number-of-attacks-by-state {
+             font-size: 26px;
+             color: white;
+             font-weight: bold;
+             margin-bottom: 5px;
+            }
+
+             #choropleth-map-showing-the-geographic-distribution-of-attacks-by-state {
+             font-size: 26px;
+             color: white;
+             font-weight: bold;
+             margin-bottom: 5px;
+            }
+
+            #choropleth-map-showing-the-geographic-distribution-of-attacks-by-state {
+             font-size: 26px;
+             color: white;
+             font-weight: bold;
+             margin-bottom: 5px;
+            }
+       
        
            .st-emotion-cache-vdokb0.e1nzilvr4 {
                font-size: 12px;
