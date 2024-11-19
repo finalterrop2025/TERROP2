@@ -224,13 +224,81 @@ def app():
              margin-bottom: 5px;
             }
 
-            #choropleth-map-showing-the-geographic-distribution-of-attacks-by-state {
+            #number-of-attacks-by-day-and-state {
              font-size: 26px;
              color: white;
              font-weight: bold;
              margin-bottom: 5px;
             }
-       
+
+             #percentage-of-attacks-by-day-and-state {
+             font-size: 26px;
+             color: white;
+             font-weight: bold;
+             margin-bottom: 5px;
+            }
+
+            #number-of-suicide-attacks-and-percentage-of-suicide-attacks-by-state {
+             font-size: 26px;
+             color: white;
+             font-weight: bold;
+             margin-bottom: 5px;
+            }
+
+            #number-of-suicide-and-non-suicide-attack {
+             font-size: 26px;
+             color: white;
+             font-weight: bold;
+             margin-bottom: 5px;
+            }
+
+            #bar-chart-showing-the-percentage-of-weapon-type {
+             font-size: 26px;
+             color: white;
+             font-weight: bold;
+             margin-bottom: 5px;
+            }
+
+             #stacked-bar-chart-showing-weopn-subtype-vs-target-type {
+             font-size: 26px;
+             color: white;
+             font-weight: bold;
+             margin-bottom: 5px;
+            }
+
+             #line-plot-showing-number-of-attacks-by-year {
+             font-size: 26px;
+             color: white;
+             font-weight: bold;
+             margin-bottom: 5px;
+            }
+
+              #stacked-bar-chart-showing-succesful-attacks-based-on-attack-type-and-weapon-subtype {
+             font-size: 26px;
+             color: white;
+             font-weight: bold;
+             margin-bottom: 5px;
+            }
+
+              #count-plot-of-terrorist-groups-with-more-than-1-attack {
+             font-size: 26px;
+             color: white;
+             font-weight: bold;
+             margin-bottom: 5px;
+            }
+             #percentage-of-terrorism-by-terrorist-group {
+             font-size: 26px;
+             color: white;
+             font-weight: bold;
+             margin-bottom: 5px;
+            }
+
+            #percentage-of-terrorism-by-terrorist-group {
+             font-size: 26px;
+             color: white;
+             font-weight: bold;
+             margin-bottom: 5px;
+            }
        
            .st-emotion-cache-vdokb0.e1nzilvr4 {
                font-size: 12px;
