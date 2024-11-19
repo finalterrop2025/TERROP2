@@ -172,7 +172,7 @@ def app():
                padding: 10px;
                border-radius: 5px;
                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-               font-size: 40px;
+               font-size: 30px;
                font-weight: bold;
                color: white; 
                font-family: 'Roboto', sans-serif;
