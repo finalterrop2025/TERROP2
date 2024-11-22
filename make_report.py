@@ -108,9 +108,9 @@ def app():
         # Establish connection to the MySQL database
         conn = mysql.connector.connect(
             host='sql5.freesqldatabase.com',
-            user='sql5737405',
-            password='HTD2nbYZSA',
-            database='sql5737405'
+            user='sql5746733',
+            password='AymtsWkQN8',
+            database='sql5746733'
         )
 
         # Create a cursor object using the connection
@@ -153,9 +153,9 @@ def app():
         # Establish connection to the MySQL database
         connection = mysql.connector.connect(
         host='sql5.freesqldatabase.com',
-        user='sql5737405',
-        password='HTD2nbYZSA',
-        database='sql5737405'
+        user='sql5746733',
+        password='AymtsWkQN8',
+        database='sql5746733'
         )
 
         # Create a cursor object using the connection
@@ -200,9 +200,9 @@ def app():
                         # Establish connection to the MySQL database
                         conn = mysql.connector.connect(
                                 host='sql5.freesqldatabase.com',
-                                user='sql5737405',
-                                password='HTD2nbYZSA',
-                                database='sql5737405'
+                                user='sql5746733',
+                                password='AymtsWkQN8',
+                                database='sql5746733'
                             )
             
                         # Create a cursor object using the connection
