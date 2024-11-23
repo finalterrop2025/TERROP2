@@ -184,7 +184,7 @@ def app():
            }
            .visualization-text {
                padding: 10px;
-               width: 90%;
+               width: 100%;
                font-size: 20px;
                font-weight: bold;
                color: white; 
@@ -202,6 +202,7 @@ def app():
              color: #f5e487;
              font-weight: bold;
              margin-bottom: 5px;
+             margin-left: 10;
             }
 
             #number-of-attacks-by-day-of-the-week {
