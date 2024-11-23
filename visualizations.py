@@ -202,7 +202,7 @@ def app():
              color: #f5e487;
              font-weight: bold;
              margin-bottom: 5px;
-             margin-left: 10;
+             margin-left: 20;
             }
 
             #number-of-attacks-by-day-of-the-week {
