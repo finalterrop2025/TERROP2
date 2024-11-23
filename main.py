@@ -138,7 +138,7 @@ def app_main():
 
             app = option_menu(
                 menu_title='TERROP',
-                options=['Home', 'Visualizations', 'Prediction', 'Make a Report', 'About', 'Login/Signup'],
+                options=['Home', 'Visualizations', 'Prediction', 'Make a Report', 'About', 'Login'],
                 icons=['house-fill', 'bar-chart-fill', 'globe', 'x-diamond-fill', 'info-circle-fill', 'person-fill'],
                 menu_icon="globe-europe-africa",
                 default_index=0,
