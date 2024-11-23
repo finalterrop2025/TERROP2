@@ -77,7 +77,7 @@ def app():
                 margin-top: 5px;
                 margin-bottom: 50px;
                 border-radius: 15px;
-                width: 50%;
+                width: 90%;
             }
             .st-emotion-cache-1jmvea6.e1nzilvr4{
                 color: #dfe0d3; 
