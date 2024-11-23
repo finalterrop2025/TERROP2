@@ -173,25 +173,24 @@ def app():
             # Display the result
             st.markdown(f"<h2 style='color:#a5abab;'>Prediction</h2>", unsafe_allow_html=True)
 
-
-            # Check if the probability exceeds 60%
-            if probability >= 0.5:
-                # Display in red
+    
+            if probability > 0.8:
+                # Very high risk
                 st.markdown(f"<span style='color:red;'>The probability of a terrorist attack in {state} is: {probability:.2%}.</span>", unsafe_allow_html=True)
-                st.warning("This is a moderate-risk situation. It is advisable for the security agency to increase vigilance, monitor the situation closely, and implement preemptive measures to reduce the likelihood of an attack.")
-
+                st.warning("This is a very high-risk situation with low uncertainty. It is strongly recommended that the security agency take immediate and rigorous measures to ensure maximum security and mitigation of a possible attack.")
+            
             elif probability >= 0.6:
-                # Display in red
+                # High risk
                 st.markdown(f"<span style='color:red;'>The probability of a terrorist attack in {state} is: {probability:.2%}.</span>", unsafe_allow_html=True)
-                st.warning("This is a high-risk situation. It is recommended that the security agency take appropriate precautionary measures "
-                    "to ensure maximum security and mitigation of a possible attack.")
-            elif probability > 0.8:
-                st.markdown(f"<span style='color:red;'>The probability of a terrorist attack in {state} is: {probability:.2%}.</span>", unsafe_allow_html=True)
-                st.warning("This is a very high-risk situation with low uncertainty. It is strongly recommended that the security agency take appropriate precautionary measures "
-                    "to ensure maximum security and mitigation of a possible attack.") 
-
+                st.warning("This is a high-risk situation. It is recommended that the security agency take appropriate precautionary measures to ensure maximum security and mitigation of a possible attack.")
+            
+            elif probability >= 0.5:
+                # Moderate risk
+                st.markdown(f"<span style='color:orange;'>The probability of a terrorist attack in {state} is: {probability:.2%}.</span>", unsafe_allow_html=True)
+                st.warning("This is a moderate-risk situation. It is advisable for the security agency to increase vigilance, monitor the situation closely, and implement preemptive measures to reduce the likelihood of an attack.")
+            
             else:
-                # Display in default color
-                st.markdown(f"<span style='color:white;'>The probability of a terrorist attack in {state} is: {probability:.2%}. Continue with your daily activities, but remain vigilant. Stay updated with credible local news sources and security announcements to ensure your safety.</span>", unsafe_allow_html=True)
-
-                                    
+                # Low risk
+                st.markdown(f"<span style='color:green;'>The probability of a terrorist attack in {state} is: {probability:.2%}. Continue with your daily activities, but remain vigilant. Stay updated with credible local news sources and security announcements to ensure your safety.</span>", unsafe_allow_html=True)
+    
+    
