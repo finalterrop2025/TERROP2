@@ -50,7 +50,7 @@ def display_auth_form():
             st.session_state['logged_in'] = False
 
         if st.session_state['logged_in']:
-            st.subheader("Welcome to TERROP, your number one terrorist predictor.")
+            st.subheader("Welcome to TERROP, your number one terrorism predictor.")
             if st.button("Logout", key="logout_button"):
                 authenticator.logout()
                 st.session_state.clear()  # Clear session state
@@ -66,7 +66,7 @@ def display_auth_form():
             # Check authentication status
             if st.session_state['authentication_status']:
                 st.session_state['logged_in'] = True
-                st.write('Logged in successfully! Welcome to TERROP, your number one terrorist predictor. ')
+                st.write('Logged in successfully! Welcome to TERROP, your number one terrorism predictor. ')
             elif st.session_state['authentication_status'] is False:
                 st.error('Username/password is incorrect')
             elif st.session_state['authentication_status'] is None:
