@@ -178,21 +178,21 @@ def app():
             if probability > 0.8:
                 # Very high risk
                 st.markdown(f"<span style='color:white;'>The probability of a terrorist attack in {state} is: {probability:.2%}.</span>", unsafe_allow_html=True)
-                st.markdown("<div style='padding:10px; border-radius:5px; color:white;'>"
+                st.markdown("<div style='border-radius:5px; color:white;'>"
                                     "This is a very high-risk situation with low uncertainty. It is strongly recommended that the security agency take immediate and rigorous measures to ensure maximum security and mitigation of a possible attack."
                                     "</div>", unsafe_allow_html=True)
                     
             elif probability >= 0.6:
                 # High risk
                 st.markdown(f"<span style='color:white;'>The probability of a terrorist attack in {state} is: {probability:.2%}.</span>", unsafe_allow_html=True)
-                st.markdown("<div style='padding:10px; border-radius:5px; color:white;'>"
+                st.markdown("<div style='border-radius:5px; color:white;'>"
                                "This is a high-risk situation. It is recommended that the security agency take appropriate precautionary measures to ensure maximum security and mitigation of a possible attack."
                                     "</div>", unsafe_allow_html=True)
                     
             elif probability >= 0.5:
                 # Moderate risk
                 st.markdown(f"<span style='color:white;'>The probability of a terrorist attack in {state} is: {probability:.2%}.</span>", unsafe_allow_html=True)
-                st.markdown("<div style='padding:10px; border-radius:5px; color:white;'>"
+                st.markdown("<div style='border-radius:5px; color:white;'>"
                                     "This is a moderate-risk situation. It is advisable for the security agency to increase vigilance, monitor the situation closely, and implement preemptive measures to reduce the likelihood of an attack."
                                     "</div>", unsafe_allow_html=True)
                     
