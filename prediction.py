@@ -154,6 +154,9 @@ def app():
         border-radius: 8px; /* Rounded corners */
         margin-top: 27px;
     }
+    .st-emotion-cache-vdokb0.e1nzilvr4{
+        color: white;
+    }
     .stButton>button:hover {
         background-color: #45a049; /* Darker green on hover */
     }
