@@ -118,8 +118,7 @@ def app_main():
             # Hide menu, footer, and header
             hide_menu_style = """
                 <style>
-                #MainMenu {visibility: hidden;}
-                footer {visibility: hidden;}
+               
                 header {visibility: hidden;}
                 #welcome-to-terrop{
                     color: #cfcebd;
