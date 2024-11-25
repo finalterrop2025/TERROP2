@@ -135,15 +135,15 @@ def app_main():
                 </style>
             """
             st.markdown(hide_menu_style, unsafe_allow_html=True)
-
-            # Inject CSS to hide the creator avatar using its data-testid
+            
             st.markdown("""
                 <style>
-                    [data-testid="appCreatorAvatar"] {
+                    ._profileImage_gzau3_78._lightThemeShadow_gzau3_95 {
                         display: none; /* Hides the avatar */
                     }
                 </style>
-            """, unsafe_allow_html=True)
+                """, unsafe_allow_html=True)
+
 
             app = option_menu(
                 menu_title='TERROP',
