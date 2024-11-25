@@ -133,7 +133,7 @@ def app_main():
                     font-weight: bold;
                 }
 
-                 ._profileImage_gzau3_78._lightThemeShadow_gzau3_95 {
+                 [data-testid="appCreatorAvatar"] {
                         display: none; /* Hides the avatar */
                     }
                 </style>
