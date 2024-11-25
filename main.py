@@ -115,7 +115,7 @@ def app_main():
 
             set_image_as_page_bg('images/header.jpg')
 
-            # Hide menu, footer, and header
+            # Hide menu, footer, and header and averter
             hide_menu_style = """
                 <style>
                 #MainMenu {visibility: hidden;}
@@ -135,6 +135,15 @@ def app_main():
                 </style>
             """
             st.markdown(hide_menu_style, unsafe_allow_html=True)
+
+            # Inject CSS to hide the creator avatar using its data-testid
+            st.markdown("""
+                <style>
+                    [data-testid="appCreatorAvatar"] {
+                        display: none; /* Hides the avatar */
+                    }
+                </style>
+            """, unsafe_allow_html=True)
 
             app = option_menu(
                 menu_title='TERROP',
