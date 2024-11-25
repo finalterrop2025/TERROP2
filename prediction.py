@@ -159,7 +159,7 @@ def app():
     
     .stButton>button:hover {
         background-color: #45a049; /* Darker green on hover */
-        color: #aeebb1;
+        color: #b5f7bd;
     }
    
     </style>
