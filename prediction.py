@@ -184,8 +184,8 @@ def app():
                     
             elif probability >= 0.6:
                 # High risk
-                st.markdown(f"<span style='color: #e6cab5;'>The probability of a terrorist attack in {state} is: {probability:.2%}.</span>", unsafe_allow_html=True)
-                st.markdown("<div style='background-color: #e6cab5; color: #753707; border-radius:8px; padding: 15px;  text-align: justify;'>"
+                st.markdown(f"<span style='color: #e3a474;'>The probability of a terrorist attack in {state} is: {probability:.2%}.</span>", unsafe_allow_html=True)
+                st.markdown("<div style='background-color: #e3a474; color: #753707; border-radius:8px; padding: 15px;  text-align: justify;'>"
                                "This is a high-risk situation. It is recommended that the security agency take appropriate precautionary measures to ensure maximum security and mitigation of a possible attack."
                                     "</div>", unsafe_allow_html=True)
                     
