@@ -198,7 +198,7 @@ def app():
                     
             else:
                 # Low risk
-                st.markdown(f"<span style='background-color: #c3ded0; color: #09b05a;'>The probability of a terrorist attack in {state} is: {probability:.2%}.</span>", unsafe_allow_html=True)
-                st.markdown("<div style='border-radius:5px; color:white;'>"
+                st.markdown(f"<span style='color: white;'>The probability of a terrorist attack in {state} is: {probability:.2%}.</span>", unsafe_allow_html=True)
+                st.markdown("<div style='background-color: #c3ded0; color: #09b05a; border-radius:5px;'>"
                                     "This is a low-risk situation. Continue with your daily activities, but remain vigilant. Stay updated with credible local news sources and security announcements to ensure your safety."
                                     "</div>", unsafe_allow_html=True)
