@@ -132,17 +132,13 @@ def app_main():
                     text-align: center;
                     font-weight: bold;
                 }
-                </style>
-            """
-            st.markdown(hide_menu_style, unsafe_allow_html=True)
-            
-            st.markdown("""
-                <style>
-                    ._profileImage_gzau3_78._lightThemeShadow_gzau3_95 {
+
+                 ._profileImage_gzau3_78._lightThemeShadow_gzau3_95 {
                         display: none; /* Hides the avatar */
                     }
                 </style>
-                """, unsafe_allow_html=True)
+            """
+            st.markdown(hide_menu_style, unsafe_allow_html=True)
 
 
             app = option_menu(
