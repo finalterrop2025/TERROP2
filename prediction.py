@@ -175,10 +175,10 @@ def app():
             st.markdown(f"<h2 style='color:#a5abab;'>Prediction</h2>", unsafe_allow_html=True)
 
     
-            if probability > 0.8:
+            if probability > 0.8:  
                 # Very high risk
-                st.markdown(f"<span style='color:white;'>The probability of a terrorist attack in {state} is: {probability:.2%}.</span>", unsafe_allow_html=True)
-                st.markdown("<div style='border-radius:5px; color:white;'>"
+                st.markdown(f"<span style='color:#e86464;'>The probability of a terrorist attack in {state} is: {probability:.2%}.</span>", unsafe_allow_html=True)
+                st.markdown("<div style='background-color: #f7b0b0; color: #f50707; border-radius:8px; padding: 15px;  text-align: justify;'>"
                                     "This is a very high-risk situation with low uncertainty. It is strongly recommended that the security agency take immediate and rigorous measures to ensure maximum security and mitigation of a possible attack."
                                     "</div>", unsafe_allow_html=True)
                     
