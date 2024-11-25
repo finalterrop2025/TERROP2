@@ -154,10 +154,14 @@ def app():
         border-radius: 8px; /* Rounded corners */
         margin-top: 27px;
     }
+
+    <div data-testid="stMarkdownContainer" class="st-emotion-cache-j6qv4b e1nzilvr4"><p>Predict</p></div>
     
     .stButton>button:hover {
         background-color: #45a049; /* Darker green on hover */
+        color: #aeebb1;
     }
+   
     </style>
     """, unsafe_allow_html=True)
 
@@ -177,7 +181,7 @@ def app():
     
             if probability > 0.8:  
                 # Very high risk
-                st.markdown(f"<span style='color: #e63e3e;'>The probability of a terrorist attack in {state} is: {probability:.2%}.</span>", unsafe_allow_html=True)
+                st.markdown(f"<span style='color: #ab151a;'>The probability of a terrorist attack in {state} is: {probability:.2%}.</span>", unsafe_allow_html=True)
                 st.markdown("<div style='background-color: #e0d7d7; color: #e30505; border-radius:8px; padding: 15px;  text-align: justify;'>"
                                     "This is a very high-risk situation with low uncertainty. It is strongly recommended that the security agency take immediate and rigorous measures to ensure maximum security and mitigation of a possible attack."
                                     "</div>", unsafe_allow_html=True)
