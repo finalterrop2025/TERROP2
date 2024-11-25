@@ -181,28 +181,28 @@ def app():
     
             if probability > 0.8:  
                 # Very high risk
-                st.markdown(f"<span style='color: #fc4245; font-size:24px;'>The probability of a terrorist attack in {state} is: {probability:.2%}.</span>", unsafe_allow_html=True)
+                st.markdown(f"<span style='color: #fc4245; font-size: 18px;'>The probability of a terrorist attack in {state} is: {probability:.2%}.</span>", unsafe_allow_html=True)
                 st.markdown("<div style='background-color: #e0d7d7; color: #e30505; border-radius:8px; padding: 15px;  text-align: justify;'>"
                                     "This is a very high-risk situation with low uncertainty. It is strongly recommended that the security agency take immediate and rigorous measures to ensure maximum security and mitigation of a possible attack."
                                     "</div>", unsafe_allow_html=True)
                     
             elif probability >= 0.6:
                 # High risk
-                st.markdown(f"<span style='color: #fc6f03;'>The probability of a terrorist attack in {state} is: {probability:.2%}.</span>", unsafe_allow_html=True)
+                st.markdown(f"<span style='color: #fc6f03; font-size: 18px;'>The probability of a terrorist attack in {state} is: {probability:.2%}.</span>", unsafe_allow_html=True)
                 st.markdown("<div style='background-color: #edd8c7; color: #6e360b; border-radius:8px; padding: 15px;  text-align: justify;'>"
                                "This is a high-risk situation. It is recommended that the security agency take appropriate precautionary measures to ensure maximum security and mitigation of a possible attack."
                                     "</div>", unsafe_allow_html=True)
                     
             elif probability >= 0.5:
                 # Moderate risk
-                st.markdown(f"<span style='color:#e3d7b1;'>The probability of a terrorist attack in {state} is: {probability:.2%}.</span>", unsafe_allow_html=True)
+                st.markdown(f"<span style='color:#e3d7b1; font-size: 18px;'>The probability of a terrorist attack in {state} is: {probability:.2%}.</span>", unsafe_allow_html=True)
                 st.markdown("<div style='background-color: #e3d7b1; color: #614c08; border-radius:8px; padding: 15px;  text-align: justify;'>"
                                     "This is a moderate-risk situation. It is advisable for the security agency to increase vigilance, monitor the situation closely, and implement preemptive measures to reduce the likelihood of an attack."
                                     "</div>", unsafe_allow_html=True)
                     
             else:
                 # Low risk
-                st.markdown(f"<span style='color: #defaec;'>The probability of a terrorist attack in {state} is: {probability:.2%}.</span>", unsafe_allow_html=True)
+                st.markdown(f"<span style='color: #defaec; font-size: 18px;'>The probability of a terrorist attack in {state} is: {probability:.2%}.</span>", unsafe_allow_html=True)
                 st.markdown("<div style='background-color: #c3ded0; color: #0c6938; border-radius:8px; padding: 15px;  text-align: justify;'>"
                                     "This is a low-risk situation. Continue with your daily activities, but remain vigilant. Stay updated with credible local news sources and security announcements to ensure your safety."
                                     "</div>", unsafe_allow_html=True)
