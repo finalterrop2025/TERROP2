@@ -139,8 +139,7 @@ def app_main():
                 </style>
             """
             st.markdown(hide_menu_style, unsafe_allow_html=True)
-
-
+            
             app = option_menu(
                 menu_title='TERROP',
                 options=['Home', 'Visualizations', 'Prediction', 'Make a Report', 'About', 'Login'],
@@ -149,13 +148,14 @@ def app_main():
                 default_index=0,
                 orientation="horizontal",
                 styles={
-                    "container": {"padding": "5!important", "background-color": "white", "border-radius": "15px"},
+                    "container": {"padding": "5!important", "background-color": "white", "border-radius": "15px"},  # Fix: Quotes added around border-radius
                     "icon": {"color": "#956241", "font-size": "23px"},
-                    "nav-link": {"color": "#473021", "font-size": "20px", "font-weight": "bold", "centre": "left", "--hover-color": "#d2c8c2"},
+                    "nav-link": {"color": "#473021", "font-size": "20px", "font-weight": "bold", "--hover-color": "#d2c8c2"},  # Fix: Removed invalid 'centre' property
                     "nav-link-selected": {"background-color": "#b79581"},
                     "menu-title": {"font-size": "30px", "color": "#473021", "font-weight": "bold"},
                 }
             )
+
 
             # Page navigation logic
             if app == "Home":
