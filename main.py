@@ -202,6 +202,15 @@ def app_main():
                     display_auth_form()
             elif app == "Login":
                 display_auth_form()
+                # Check if the user is logged in
+                if st.session_state.get('logged_in', False):
+                    # Add a button to navigate to the homepage
+                    col1, col2, col3 = st.columns([2, 1, 2])
+                    with col2:
+                        if st.button("Go to Homepage", key="homepage_button_login"):
+                            # Update the app state to redirect to Home
+                            st.session_state['selected_tab'] = "Home"
+                            st.experimental_rerun()  # Rerun the app to apply changes
 
     MultiApp().run()
 
