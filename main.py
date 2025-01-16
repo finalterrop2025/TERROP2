@@ -16,19 +16,16 @@ with open('config.yaml') as file:
 # Uncomment this line if you want to hash the passwords for storage
 hashed_password = stauth.Hasher.hash_passwords(config['credentials'])
 
-
 # Initialize authenticator
 authenticator = stauth.Authenticate(
     config['credentials'],
     config['cookie']['name'],
     config['cookie']['key'],
     config['cookie']['expiry_days'],
-    # config['preauthorized']  # Uncomment if pre-authorized users are being used
 )
 
 # Function to handle login and signup form display
 def display_auth_form():
-    # Custom styles for the form
     change_singup_color = """
                 <style>
                 .st-emotion-cache-1jmvea6.e1nzilvr4 {
@@ -51,7 +48,6 @@ def display_auth_form():
 
     col1, col2, col3 = st.columns([2, 1, 2])
     with col2:
-        # Check login state
         if 'authentication_status' not in st.session_state:
             st.session_state['authentication_status'] = None
         if 'logged_in' not in st.session_state:
@@ -61,17 +57,16 @@ def display_auth_form():
             st.subheader("Welcome to TERROP!")
             if st.button("Logout", key="logout_button"):
                 authenticator.logout()
-                st.session_state.clear()  # Clear session state
+                st.session_state.clear()
                 st.session_state['logged_in'] = False
                 st.session_state['authentication_status'] = None
-                st.rerun()  # Rerun to reflect logout state
+                st.rerun()
         else:
             try:
                 authenticator.login()
             except Exception as e:
                 st.error(f"An error occurred during login: {e}")
 
-            # Check authentication status
             if st.session_state['authentication_status']:
                 st.session_state['logged_in'] = True
                 st.write('Logged in successfully, Welcome to TERROP! ')
@@ -101,7 +96,6 @@ def app_main():
             self.apps.append({"title": title, "function": func})
 
         def run(self):
-            # Set custom background for the page
             def get_base64_of_bin_file(bin_file):
                 with open(bin_file, 'rb') as f:
                     data = f.read()
@@ -123,7 +117,6 @@ def app_main():
 
             set_image_as_page_bg('images/header.jpg')
 
-            # Hide menu, footer, and header and averter
             hide_menu_style = """
                 <style>
                 #MainMenu {visibility: hidden;}
@@ -142,30 +135,33 @@ def app_main():
                 }
 
                  [data-testid="appCreatorAvatar"] {
-                        display: none; /* Hides the avatar */
+                        display: none;
                     }
                 </style>
             """
             st.markdown(hide_menu_style, unsafe_allow_html=True)
-            
+
+            default_tab = (
+                0 if 'selected_tab' not in st.session_state
+                else ['Home', 'Visualizations', 'Prediction', 'Make a Report', 'About', 'Login'].index(st.session_state['selected_tab'])
+            )
+
             app = option_menu(
                 menu_title='TERROP',
                 options=['Home', 'Visualizations', 'Prediction', 'Make a Report', 'About', 'Login'],
                 icons=['house-fill', 'bar-chart-fill', 'globe', 'x-diamond-fill', 'info-circle-fill', 'person-fill'],
                 menu_icon="globe-europe-africa",
-                default_index=0,
+                default_index=default_tab,
                 orientation="horizontal",
                 styles={
-                    "container": {"padding": "5!important", "background-color": "white", "border-radius": "15px"},  # Fix: Quotes added around border-radius
+                    "container": {"padding": "5!important", "background-color": "white", "border-radius": "15px"},
                     "icon": {"color": "#956241", "font-size": "23px"},
-                    "nav-link": {"color": "#473021", "font-size": "20px", "font-weight": "bold", "--hover-color": "#d2c8c2"},  # Fix: Removed invalid 'centre' property
+                    "nav-link": {"color": "#473021", "font-size": "20px", "font-weight": "bold", "--hover-color": "#d2c8c2"},
                     "nav-link-selected": {"background-color": "#b79581"},
                     "menu-title": {"font-size": "30px", "color": "#473021", "font-weight": "bold"},
                 }
             )
 
-
-            # Page navigation logic
             if app == "Home":
                 home.app()
             elif app == "About":
@@ -202,16 +198,12 @@ def app_main():
                     display_auth_form()
             elif app == "Login":
                 display_auth_form()
-                # Check if the user is logged in
                 if st.session_state.get('logged_in', False):
-                    # Add a button to navigate to the homepage
                     col1, col2, col3 = st.columns([2, 1, 2])
                     with col2:
                         if st.button("Go to Homepage", key="homepage_button_login"):
-                            # Update the app state to redirect to Home
                             st.session_state['selected_tab'] = "Home"
-                            home.app()
-                            st.experimental_rerun()  # Rerun the app to apply changes
+                            st.experimental_rerun()
 
     MultiApp().run()
 
