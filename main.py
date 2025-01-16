@@ -39,10 +39,10 @@ def display_auth_form():
                 }
 
                 .st-emotion-cache-asc41u.e1nzilvr2 {
-                    font-size: 50px; /* Adjust the size to make it smaller */
+                    font-size: 30px; /* Adjust the size to make it smaller */
                     text-align: center; /* Center the text */
                     font-weight: bold; /* Make it bold */
-                    width: 80%; /* Adjust width */
+                    width: 100%; /* Adjust width */
                     margin: 0 auto; /* Center the text block */
                 }
                 </style>
