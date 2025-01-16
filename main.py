@@ -36,7 +36,7 @@ def display_auth_form():
                 }
 
                 #welcome-to-terrop {
-                    font-size: 30px; /* Adjust the size to make it smaller */
+                    font-size: 50px; /* Adjust the size to make it smaller */
                     text-align: center; /* Center the text */
                     font-weight: bold; /* Make it bold */
                     width: 100%; /* Adjust width */
