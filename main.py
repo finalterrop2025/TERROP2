@@ -192,7 +192,7 @@ def app_main():
                     with col2:
                         st.warning("Please log in to submit a report.")
                     display_auth_form()
-            elif app == "Login/Signup":
+            elif app == "Login":
                 display_auth_form()
 
     MultiApp().run()
