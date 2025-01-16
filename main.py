@@ -210,6 +210,7 @@ def app_main():
                         if st.button("Go to Homepage", key="homepage_button_login"):
                             # Update the app state to redirect to Home
                             st.session_state['selected_tab'] = "Home"
+                            home.app()
                             st.experimental_rerun()  # Rerun the app to apply changes
 
     MultiApp().run()
