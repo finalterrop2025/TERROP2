@@ -37,6 +37,14 @@ def display_auth_form():
                 .st-emotion-cache-vdokb0.e1nzilvr4 {
                     color: #a2a9a9;
                 }
+
+                .st-emotion-cache-asc41u.e1nzilvr2 {
+                    font-size: 50px; /* Adjust the size to make it smaller */
+                    text-align: center; /* Center the text */
+                    font-weight: bold; /* Make it bold */
+                    width: 80%; /* Adjust width */
+                    margin: 0 auto; /* Center the text block */
+                }
                 </style>
                 """
     st.markdown(change_singup_color, unsafe_allow_html=True)
