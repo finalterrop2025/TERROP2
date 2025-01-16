@@ -38,7 +38,7 @@ def display_auth_form():
                     color: #a2a9a9;
                 }
 
-                .st-emotion-cache-asc41u.e1nzilvr2 {
+                .st-emotion-cache-gi0tri.e1nzilvr1 {
                     font-size: 30px; /* Adjust the size to make it smaller */
                     text-align: center; /* Center the text */
                     font-weight: bold; /* Make it bold */
