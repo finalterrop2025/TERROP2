@@ -161,8 +161,8 @@ def app():
         """
         <div style="width: 100%; padding: 20px; background-color: #f8f9fa; bottom: 0; left: 0; border-radius: 15px;">
             <div style="text-align: center; color: #333; font-size: 14px; padding-top: 100px; ">
-                <p style="margin: 0; padding: 0;">This study is to develop and evaluate a machine learning model for the classification and forecasting of terrorist activities, with a focus on violent attacks.</p>
-                <p style="margin: 0; padding: 0;">The project intends to enable real-time adaptation of prediction models. These findings offer significant insights for researchers, policymakers, and security organizations involved in effective counterterrorism efforts.</p>
+                <p style="margin: 0; padding: 0;">This study is to evaluate the accuracy and effectiveness of multiple machine learning models for classifying terrorist activities based on factors such as attack success, weapon type, attack type, and targeted locations, as well as forecasting future attacks using data from the Global Terrorism Database (GTD).</p>
+                
             </div>
         </div>
         """,   
