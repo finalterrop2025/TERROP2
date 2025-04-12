@@ -38,13 +38,14 @@ def app():
                     }
 
                         .paragraph{
+                            font-size: 50px;
                             color: black; 
                             background-color: #d7e4e4;
                             padding: 20px;
                             margin: 5px;
                             border-radius: 15px;
                             width: 100%;
-                            font-size: 50px;
+                           
                     }
                 </style>
 
