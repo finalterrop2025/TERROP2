@@ -44,7 +44,7 @@ def app():
                             margin: 5px;
                             border-radius: 15px;
                             width: 100%;
-                            font-size: 40px;
+                            font-size: 50px;
                     }
                 </style>
 
