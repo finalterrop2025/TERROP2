@@ -38,7 +38,7 @@ def app():
                     font-size: 40px; 
                 }
             </style>
-            <div class="make-report-header">
+            <div class="Database-make-report-header">
                     <h1 style='color:#a5abab;'>Make a Report</h1>
             </div>
             """,
