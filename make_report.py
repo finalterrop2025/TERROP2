@@ -94,7 +94,7 @@ def app():
 
         
         <div class="paragraph">
-                <p style= "font-size: 40px; text-align: center; margin-bottom:20px;">Distributive terrorist activity database for easy retrieval of information of terrorist data.</div>
+                <p style= "font-size: 40px; text-align: center; margin-bottom:20px; font-weight: bold;">Distributive terrorist activity database for easy storage and retrieval of information of terrorist data.</div>
         """,
         unsafe_allow_html=True
     )
