@@ -43,7 +43,7 @@ def app():
                             padding: 20px;
                             margin: 5px;
                             border-radius: 15px;
-                            width: 50%;
+                            width: 80%;
                     }
                 </style>
 
