@@ -162,7 +162,7 @@ def app():
         <div style="width: 100%; padding: 20px; background-color: #f8f9fa; bottom: 0; left: 0; border-radius: 15px;">
             <div style="text-align: center; color: #333; font-size: 14px; padding-top: 100px; ">
                 <p style="margin: 0; padding: 0;">This study is to evaluate the accuracy and effectiveness of multiple machine learning models for classifying terrorist activities based on factors such as attack success, weapon type, attack type, and targeted locations, as well as forecasting future attacks using data from the Global Terrorism Database (GTD).</p>
-                
+                <p style="margin: 0; padding: 0;"></p>
             </div>
         </div>
         """,   
