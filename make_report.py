@@ -38,8 +38,8 @@ def app():
                     font-size: 40px; 
                 }
             </style>
-            <div class="Database-make-report-header">
-                    <h1 style='color:#a5abab;'>Make a Report</h1>
+            <div class="make-report-header">
+                    <h1 style='color:#a5abab;'>Database-Make a Report</h1>
             </div>
             """,
             unsafe_allow_html=True
