@@ -94,7 +94,7 @@ def app():
 
         
         <div class="paragraph">
-                <p style= "font-size: 18px; text-align: justify; margin-bottom:20px;">To submit a report of any terrorist attack and contribute to the efficiency of predicting the likelihood of terrorist attacks in Nigeria, please fill in the required details below. Your input will help our system analyze and forecast potential risk areas, providing valuable insights for enhancing security measures. The information you provide—such as location, date, and other relevant factors—allows our predictive model to assess the probability of an attack based on historical data and current trends. This tool is designed to support proactive decision-making, helping communities, security agencies, and policymakers stay one step ahead in preventing crime and ensuring public safety. Please ensure all fields are accurately completed to receive the most reliable predictions.</div>
+                <p style= "font-size: 40px; text-align: center; margin-bottom:20px;">Distributive terrorist activity database for easy retrieval of information of terrorist data.</div>
         """,
         unsafe_allow_html=True
     )
