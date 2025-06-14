@@ -349,7 +349,13 @@ def app():
        unsafe_allow_html=True
       )
 
-    st.title("GIS Location")
+    # Custom styled title
+    st.markdown(
+    "<h1 style='text-align: left; color: #f5f5f5;'>GIS Location</h1>",
+    unsafe_allow_html=True
+    )
+
+    #st.title("GIS Location")
 
     # Load and display GIS image
     image = Image.open("images/gis.jpg")
