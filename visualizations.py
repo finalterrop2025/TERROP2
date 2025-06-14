@@ -353,7 +353,13 @@ def app():
 
     # Load and display GIS image
     image = Image.open("images/gis.jpg")
-    st.image(image, caption="GIS Location", use_column_width=True)
+
+   # Resize the image to half its original size
+   width, height = image.size
+   resized_image = image.resize((width // 2, height // 2))
+
+   
+    st.image(resized_image, caption="GIS Location", use_column_width=True)
 
     # plotly figures and interpretations
 
