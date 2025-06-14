@@ -354,7 +354,7 @@ def app():
     # Load and display GIS image
     image = Image.open("images/gis.jpg")
 
-    st.image(image, caption="GIS Location", use_column_width=True)
+    st.image(image, caption="GIS Location", width=400)
 
     # plotly figures and interpretations
 
