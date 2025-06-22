@@ -348,13 +348,6 @@ def app():
        """,
        unsafe_allow_html=True
       )
-
-    # Custom styled title
-    st.markdown(
-    "<h1 style='text-align: left; color: #cad45d;'>GIS Location</h1>",
-    unsafe_allow_html=True
-    )
-
     
     # plotly figures and interpretations
 
