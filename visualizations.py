@@ -355,13 +355,7 @@ def app():
     unsafe_allow_html=True
     )
 
-    #st.title("GIS Location")
-
-    # Load and display GIS image
-    image = Image.open("images/gis.jpg")
-
-    st.image(image, caption="GIS Location", width=800)
-
+    
     # plotly figures and interpretations
 
     # Group data by state and calculate total attacks, saving it to a column called 'Count'
