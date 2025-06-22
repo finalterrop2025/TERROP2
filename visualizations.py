@@ -377,96 +377,99 @@ def app():
     max_attacks = attacks_by_state[state_max_attacks]
     
     
+           
+    # Define all plots and GIS chart
     plots = {
-        "Number of Attacks by Day of the Week": {
-        "fig": Number_of_Attack_by_Day_of_week_fig,
-        "desc": "This plot shows the frequency of terrorism attacks across the days of the week."
-                
-    },
-    "Number of Attacks by State": {
-        "fig": Number_of_Attack_by_State_fig,
-        "desc": f"This plot shows the frequency of terrorism attacks across the states. "
-                f"State with maximum attacks: {state_max_attacks} ({max_attacks} attacks). "
-                f"State with minimum attacks: {state_min_attacks} ({min_attacks} attacks)."
-    },
-        "Choropleth Map Showing the Geographic Distribution of Attacks by State": {
-            "fig": choropleth_map_fig,
-            "desc": "This map visualizes the geographical distribution of terrorism attacks across states in Nigeria, emphasizing hotspots of activity."
-        },
-        "Number of Attacks by Day and State": {
-            "fig": Number_of_Attack_by_Day_and_State_fig,
-            "desc": "This plot breaks down the number of attacks by day and state, helping to identify trends and patterns at a granular level."
-        },
-        "Percentage of Attacks by Day and State": {
-            "fig": Percentage_of_Attack_by_Day_and_State,
-            "desc": "This chart displays the percentage of attacks in each state on different days, offering insights into attack proportions."
-        },
-        "Number of Suicide Attacks and Percentage of Suicide Attacks by State": {
-            "fig": percentage_suicide_attack_fig,
-            "desc": "This plot shows the number of suicide attack in comparison to the percentage of suicide attacks, illustrating the frequency and proportions of such incidents."
-        },
-        "Number of Suicide and Non-Suicide Attack": {
-            "fig": suicide_and_non_suicide_attack_fig,
-            "desc": "This plot compares the frequency of suicide and non-suicide attacks, showing their frequency and how they compare."
-        },
-        "Bar Chart Showing the Percentage of Weapon Type": {
-            "fig": weapon_type_fig,
-            "desc": "This chart categorizes the types of weapons used in terrorism attacks, revealing the most and least common weapon choices."
-        },
-        "Stacked Bar Chart Showing Weopn Subtype vs Target Type": {
-            "fig": weapon_target_fig,
-            "desc": "This plot explores the weopon used for each targets of terrorism attacks, showing which groups or entities are most frequently attacked and weopon frequently used."
-        },
-        "Line Plot Showing Number of Attacks by Year": {
-            "fig": attacks_by_year_fig,
-            "desc": "This chart shows the number of attacks per year, providing a temporal view of terrorism trends over time."
-        },
-        "Stacked Bar Chart Showing Succesful Attacks Based on Attack Type and Weapon Subtype": {
-            "fig": attack_weapon_type_success_fig,
-            "desc": "This plot analyzes the success rates of attacks based on attack type and weapon types, offering insights into effectiveness."
-        },
-        "Count Plot of Terrorist Groups with More than 1 Attack": {
-            "fig": Terrorist_Group_More_than_1_attack_fig,
-            "desc": "This chart shows the frequency of Attacks by terrorist groups with more than one attack, highlighting the groups with significant activity."
-        },
-        "Percentage of Terrorism by Terrorist Group": {
-            "fig": Percentage_terrorism_by_terrorist_group_fig,
-            "desc": "This plot shows the percentage of total attacks attributed to each terrorist group, providing a comparative analysis."
-        },
+       "GIS Location": {
+           "is_image": True,
+           "image_path": "images/gis.jpg",
+           "desc": "This image shows the GIS location representation related to terrorism activities."
+       },
+       "Number of Attacks by Day of the Week": {
+           "fig": Number_of_Attack_by_Day_of_week_fig,
+           "desc": "This plot shows the frequency of terrorism attacks across the days of the week."
+       },
+       "Number of Attacks by State": {
+           "fig": Number_of_Attack_by_State_fig,
+           "desc": f"This plot shows the frequency of terrorism attacks across the states. "
+                   f"State with maximum attacks: {state_max_attacks} ({max_attacks} attacks). "
+                   f"State with minimum attacks: {state_min_attacks} ({min_attacks} attacks)."
+       },
+       "Choropleth Map Showing the Geographic Distribution of Attacks by State": {
+           "fig": choropleth_map_fig,
+           "desc": "This map visualizes the geographical distribution of terrorism attacks across states in Nigeria, emphasizing hotspots of activity."
+       },
+       "Number of Attacks by Day and State": {
+           "fig": Number_of_Attack_by_Day_and_State_fig,
+           "desc": "This plot breaks down the number of attacks by day and state, helping to identify trends and patterns at a granular level."
+       },
+       "Percentage of Attacks by Day and State": {
+           "fig": Percentage_of_Attack_by_Day_and_State,
+           "desc": "This chart displays the percentage of attacks in each state on different days, offering insights into attack proportions."
+       },
+       "Number of Suicide Attacks and Percentage of Suicide Attacks by State": {
+           "fig": percentage_suicide_attack_fig,
+           "desc": "This plot shows the number of suicide attacks compared to their percentage by state, illustrating both frequency and proportion."
+       },
+       "Number of Suicide and Non-Suicide Attack": {
+           "fig": suicide_and_non_suicide_attack_fig,
+           "desc": "This plot compares the frequency of suicide and non-suicide attacks, showing their relative occurrence."
+       },
+       "Bar Chart Showing the Percentage of Weapon Type": {
+           "fig": weapon_type_fig,
+           "desc": "This chart categorizes the types of weapons used in terrorism attacks, revealing common and rare weapon types."
+       },
+       "Stacked Bar Chart Showing Weopn Subtype vs Target Type": {
+           "fig": weapon_target_fig,
+           "desc": "This plot explores weapons used against different target types, showing frequency and associations."
+       },
+       "Line Plot Showing Number of Attacks by Year": {
+           "fig": attacks_by_year_fig,
+           "desc": "This chart shows yearly trends in the number of attacks, revealing patterns over time."
+       },
+       "Stacked Bar Chart Showing Succesful Attacks Based on Attack Type and Weapon Subtype": {
+           "fig": attack_weapon_type_success_fig,
+           "desc": "This plot analyzes successful attacks by attack and weapon type, providing insights into impact."
+       },
+       "Count Plot of Terrorist Groups with More than 1 Attack": {
+           "fig": Terrorist_Group_More_than_1_attack_fig,
+           "desc": "This chart highlights terrorist groups involved in more than one attack, showing repeat offenders."
+       },
+       "Percentage of Terrorism by Terrorist Group": {
+           "fig": Percentage_terrorism_by_terrorist_group_fig,
+           "desc": "This plot shows what percentage of attacks is attributed to each terrorist group."
+       },
     }
-
+   
     # Sidebar for plot selection
     selected_plots = []
     st.sidebar.header("Select Plots to Display")
     for plot_name in plots.keys():
         if st.sidebar.checkbox(plot_name, value=False):
             selected_plots.append((plot_name, plots[plot_name]))
-
-    # Display selected plots with descriptions, two per row
+   
+    # Display selected plots
     st.header("Selected Plots")
     if selected_plots:
         cols = st.columns(2)
-        for idx, (plot_name, plot_data) in enumerate(selected_plots):
-            col = cols[idx % 2]  # Alternate between two columns
-            with col:
-                st.subheader(plot_name)
-                st.plotly_chart(plot_data["fig"])
-                st.caption(plot_data["desc"])  # Add interpretation below the plot
+        idx = 0
+        for plot_name, plot_data in selected_plots:
+            if plot_data.get("is_image"):
+                # Display GIS image in full width (not in a column)
+                st.markdown(
+                    "<h1 style='text-align: left; color: #cad45d;'>GIS Location</h1>",
+                    unsafe_allow_html=True
+                )
+                image = Image.open(plot_data["image_path"])
+                st.image(image, caption="GIS Location", use_column_width=True)
+                st.caption(plot_data["desc"])
+            else:
+                col = cols[idx % 2]
+                with col:
+                    st.subheader(plot_name)
+                    st.plotly_chart(plot_data["fig"])
+                    st.caption(plot_data["desc"])
+                idx += 1
     else:
         st.write("No plots selected. Use the sidebar to select plots.")
 
-
-
-# Display the Plotly chart in Streamlit
-   # st.plotly_chart(Attack_by_day_of_Week_fig)
-    #st.plotly_chart(choropleth_map_fig)
-    #st.plotly_chart(Number_of_Attack_by_Day_and_State_fig)
-    #st.plotly_chart(Percentage_of_Attack_by_Day_and_State)
-    #st.plotly_chart(suicide_attack_fig)
-    #st.plotly_chart(non_suicide_attack_fig)
-    #st.plotly_chart(weapon_type_fig)
-    #st.plotly_chart(weapon_target_fig)
-    #st.plotly_chart(attacks_by_year_fig) 
-    #st.plotly_chart(attack_weapon_type_success_fig)
-    #st.plotly_chart(Terrorist_Group_More_than_1_attack_fig)
-    #st.plotly_chart(Percentage_terrorism_by_terrorist_group_fig).
