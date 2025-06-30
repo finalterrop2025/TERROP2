@@ -1,4 +1,4 @@
-category_encoders
+category_encoders==2.6.1
 firebase_admin
 geocoder
 joblib
