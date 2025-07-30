@@ -1,7 +1,7 @@
 streamlit
-scipy==1.11.4
-statsmodels==0.13.5
-category_encoders==2.6.1
+scipy
+statsmodels
+category_encoders
 firebase_admin
 geocoder
 joblib
