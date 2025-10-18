@@ -4,7 +4,7 @@ from streamlit_extras.stylable_container import stylable_container
 import yaml
 
 # Set page config
-st.set_page_config(page_title="TERROP", page_icon='imag3.webp', layout="wide")
+st.set_page_config(page_title="EMTERROP", page_icon='imag3.webp', layout="wide")
 
 # Load config from YAML file
 from yaml.loader import SafeLoader
@@ -54,7 +54,7 @@ def display_auth_form():
             st.session_state['logged_in'] = False
 
         if st.session_state['logged_in']:
-            st.subheader("Welcome to TERROP!")
+            st.subheader("Welcome to EMTERROP!")
             if st.button("Logout", key="logout_button"):
                 authenticator.logout()
                 st.session_state.clear()
@@ -69,7 +69,7 @@ def display_auth_form():
 
             if st.session_state['authentication_status']:
                 st.session_state['logged_in'] = True
-                st.write('Logged in successfully, Welcome to TERROP! ')
+                st.write('Logged in successfully, Welcome to EMTERROP! ')
             elif st.session_state['authentication_status'] is False:
                 st.error('Username/password is incorrect')
             elif st.session_state['authentication_status'] is None:
@@ -147,7 +147,7 @@ def app_main():
             )
 
             app = option_menu(
-                menu_title='TERROP',
+                menu_title='EMTERROP',
                 options=['Home', 'Prediction', 'Visualizations', 'Make a Report', 'About', 'Login'],
                 icons=['house-fill', 'bar-chart-fill', 'globe', 'x-diamond-fill', 'info-circle-fill', 'person-fill'],
                 menu_icon="globe-europe-africa",
@@ -170,7 +170,7 @@ def app_main():
                 if st.session_state.get('logged_in', False):
                     visualizations.app()
                 else:
-                    st.title("WELCOME TO TERROP")
+                    st.title("WELCOME TO EMTERROP")
                     st.title("Your number one terrorism predictor")
                     col1, col2, col3 = st.columns([1, 1, 1])
                     with col2:
@@ -180,7 +180,7 @@ def app_main():
                 if st.session_state.get('logged_in', False):
                     prediction.app()
                 else:
-                    st.title("WELCOME TO TERROP")
+                    st.title("WELCOME TO EMTERROP")
                     st.title("Your number one terrorism predictor")
                     col1, col2, col3 = st.columns([1, 1, 1])
                     with col2:
@@ -190,7 +190,7 @@ def app_main():
                 if st.session_state.get('logged_in', False):
                     make_report.app()
                 else:
-                    st.title("WELCOME TO TERROP")
+                    st.title("WELCOME TO EMTERROP")
                     st.title("Your number one terrorism predictor")
                     col1, col2, col3 = st.columns([1, 1, 1])
                     with col2:
@@ -210,3 +210,4 @@ def app_main():
 # Main Entry
 if __name__ == "__main__":
     app_main()
+
