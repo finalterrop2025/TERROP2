@@ -147,7 +147,7 @@ def app_main():
             )
 
             app = option_menu(
-                menu_title='EMTERROP',
+                menu_title='ETERROP',
                 options=['Home', 'Prediction', 'Visualizations', 'Make a Report', 'About', 'Login'],
                 icons=['house-fill', 'bar-chart-fill', 'globe', 'x-diamond-fill', 'info-circle-fill', 'person-fill'],
                 menu_icon="globe-europe-africa",
@@ -210,4 +210,5 @@ def app_main():
 # Main Entry
 if __name__ == "__main__":
     app_main()
+
 
