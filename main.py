@@ -35,7 +35,7 @@ def display_auth_form():
                     color: #a2a9a9;
                 }
 
-                #welcome-to-terrop {
+                #welcome-to-emterrop {
                     font-size: 60px; /* Adjust the size to make it smaller */
                     text-align: center; /* Center the text */
                     font-weight: bold; /* Make it bold */
@@ -147,7 +147,7 @@ def app_main():
             )
 
             app = option_menu(
-                menu_title='ETERROP',
+                menu_title='EMTERROP',
                 options=['Home', 'Prediction', 'Visualizations', 'Make a Report', 'About', 'Login'],
                 icons=['house-fill', 'bar-chart-fill', 'globe', 'x-diamond-fill', 'info-circle-fill', 'person-fill'],
                 menu_icon="globe-europe-africa",
@@ -210,5 +210,6 @@ def app_main():
 # Main Entry
 if __name__ == "__main__":
     app_main()
+
 
 
