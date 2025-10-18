@@ -41,6 +41,7 @@ def display_auth_form():
                     font-weight: bold; /* Make it bold */
                     width: 100%; /* Adjust width */
                     margin: 0 auto; /* Center the text block */
+                    color: white; /* Set text color to white */
                 }
                 </style>
                 """
@@ -210,6 +211,7 @@ def app_main():
 # Main Entry
 if __name__ == "__main__":
     app_main()
+
 
 
 
